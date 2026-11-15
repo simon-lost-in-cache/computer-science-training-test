@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "CH01_Q01",
+    "chapter": 1,
+    "difficulty": "easy",
+    "question": "Which term describes converting an existing paper document into a digital file by scanning it?",
+    "options": [
+      "Digitization",
+      "Digitalization",
+      "Digital transformation",
+      "Business process automation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Digitization converts analogue information into a digital format, such as a scanned PDF."
+  },
+  {
+    "id": "CH01_Q02",
+    "chapter": 1,
+    "difficulty": "easy",
+    "question": "In the study guide, which four technologies are described as the root technologies underlying most digitalization trends?",
+    "options": [
+      "Blockchain, 5G, Robotics, and Augmented Reality",
+      "Internet of Things, Cloud Computing, Big Data, and Artificial Intelligence",
+      "ERP, CRM, SCM, and Business Intelligence",
+      "SEO, SEM, CMS, and E-commerce"
+    ],
+    "correctIndex": 1,
+    "explanation": "The four root technologies listed are IoT, cloud computing, big data, and AI."
+  },
+  {
+    "id": "CH01_Q03",
+    "chapter": 1,
+    "difficulty": "easy",
+    "question": "Which digital business model gives users a basic service for free and charges for extra functions?",
+    "options": [
+      "Pay per use",
+      "Licensing",
+      "Freemium",
+      "Affiliate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Freemium combines free basic access with optional paid premium features."
+  },
+  {
+    "id": "CH01_Q04",
+    "chapter": 1,
+    "difficulty": "medium",
+    "question": "Which business model best fits a website that sends customers to a retailer through tracked links and earns money when a referred customer purchases?",
+    "options": [
+      "Marketplace",
+      "SaaS",
+      "Data monetization",
+      "Affiliate"
+    ],
+    "correctIndex": 3,
+    "explanation": "Affiliate businesses receive commissions for qualifying referrals, rather than providing the transaction marketplace themselves."
+  },
+  {
+    "id": "CH01_Q05",
+    "chapter": 1,
+    "difficulty": "medium",
+    "question": "A company rents online software that employees access through their browsers instead of installing and maintaining it locally. What is the service model?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Edge Computing"
+    ],
+    "correctIndex": 0,
+    "explanation": "SaaS gives customers access to provider-hosted application software over the internet."
+  },
+  {
+    "id": "CH01_Q06",
+    "chapter": 1,
+    "difficulty": "medium",
+    "question": "Which Big Data characteristic refers to the arrival of new records in a fast continuous stream?",
+    "options": [
+      "Volume",
+      "Velocity",
+      "Variety",
+      "Scalability"
+    ],
+    "correctIndex": 1,
+    "explanation": "Velocity concerns the speed at which data arrives and needs to be processed."
+  },
+  {
+    "id": "CH01_Q07",
+    "chapter": 1,
+    "difficulty": "medium",
+    "question": "A factory sends sensor readings to a remote system and can receive instructions that affect equipment on the shop floor. Which root technology enables this connection?",
+    "options": [
+      "Business Intelligence",
+      "Data Warehousing",
+      "Internet of Things (IoT)",
+      "Quantum Computing"
+    ],
+    "correctIndex": 2,
+    "explanation": "IoT connects physical objects to remote computers for reporting and control."
+  },
+  {
+    "id": "CH01_Q08",
+    "chapter": 1,
+    "difficulty": "medium",
+    "question": "A mobile app charges customers for each minute they use a shared vehicle. Which revenue model is most directly illustrated?",
+    "options": [
+      "Subscription",
+      "Advertising",
+      "Licensing",
+      "Pay per Use"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pay per Use charges for measured consumption, such as minutes of vehicle use."
+  },
+  {
+    "id": "CH01_Q09",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "A manufacturer scans old paper work orders, replaces manual approval steps with software, and then redesigns its business around digitally coordinated customer orders. What is the correct progression?",
+    "options": [
+      "Digitization → Digitalization → Digital Transformation",
+      "Digitalization → Digitization → Digital Transformation",
+      "Digitization → Digital Transformation → Digitalization",
+      "Digital Transformation → Digitalization → Digitization"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scanning is digitization; replacing a process is digitalization; changing the overall business model is digital transformation."
+  },
+  {
+    "id": "CH01_Q10",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "A platform matches independent hosts and guests, provides booking and payment tools, and takes a percentage of completed bookings without owning the properties. Which model fits best?",
+    "options": [
+      "Affiliate",
+      "Marketplace",
+      "E-commerce retailer holding its own stock",
+      "Data monetization"
+    ],
+    "correctIndex": 1,
+    "explanation": "A marketplace enables transactions between independent buyers and sellers and typically earns transaction commissions."
+  },
+  {
+    "id": "CH01_Q11",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "A business uses cloud infrastructure but processes emergency machine signals immediately beside its sensors to avoid distant-network delays. Which concept explains the local response?",
+    "options": [
+      "Cloud-first operations",
+      "Digital Twin",
+      "Edge Computing",
+      "Data Monetization"
+    ],
+    "correctIndex": 2,
+    "explanation": "Edge Computing processes data near its source; the cloud may still receive selected results later."
+  },
+  {
+    "id": "CH01_Q12",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "A retailer sells aggregated, appropriately anonymised market-demand reports to suppliers, rather than advertising space or access to products. Which digital model best explains the revenue?",
+    "options": [
+      "Advertising",
+      "Licensing",
+      "Subscription-only content distribution",
+      "Data Monetization"
+    ],
+    "correctIndex": 3,
+    "explanation": "Data monetization turns lawfully used data or insights into paid information products."
+  },
+  {
+    "id": "CH01_Q13",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "Which sequence accurately matches the three Big Data challenges: millions of stored transactions; sensor readings arriving every second; and mixed reviews, images, and videos?",
+    "options": [
+      "Volume → Velocity → Variety",
+      "Velocity → Volume → Variety",
+      "Variety → Velocity → Volume",
+      "Volume → Variety → Velocity"
+    ],
+    "correctIndex": 0,
+    "explanation": "Volume is size, velocity is arrival speed, and variety is diversity of data forms."
+  },
+  {
+    "id": "CH01_Q14",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "A firm wants a provider-hosted environment for developing and deploying its applications but does not want to administer servers. Which cloud model is most appropriate?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "On-premises hosting"
+    ],
+    "correctIndex": 1,
+    "explanation": "PaaS provides development and deployment tools without requiring the customer to manage underlying servers."
+  },
+  {
+    "id": "CH01_Q15",
+    "chapter": 1,
+    "difficulty": "hard",
+    "question": "An engineering team keeps a virtual production-line representation current with real-world information so it can assess proposed changes before changing the factory. What is it using?",
+    "options": [
+      "Augmented Reality",
+      "A/B Testing",
+      "Digital Twin",
+      "Business Process Automation"
+    ],
+    "correctIndex": 2,
+    "explanation": "A digital twin is a data-updated virtual representation used to explore the behaviour of a real object or system."
+  },
+  {
+    "id": "CH02_Q01",
+    "chapter": 2,
+    "difficulty": "easy",
+    "question": "Which set contains all five components of a Business Information System (BIS)?",
+    "options": [
+      "Managers, Customers, Suppliers, Employees, and Owners",
+      "ERP, CRM, SCM, BI, and Project Management",
+      "Input, Processing, Storage, Output, and Security",
+      "People, Processes, Hardware, Software, and Data"
+    ],
+    "correctIndex": 3,
+    "explanation": "The BIS is a connected set of people, processes, hardware, software, and data."
+  },
+  {
+    "id": "CH02_Q02",
+    "chapter": 2,
+    "difficulty": "easy",
+    "question": "What is the primary purpose of a Customer Relationship Management (CRM) system?",
+    "options": [
+      "Managing interactions and relationships with current and potential customers",
+      "Coordinating raw material flows from suppliers to customers",
+      "Connecting finance, HR, and manufacturing in one shared system",
+      "Operating the organisation’s network switches and servers"
+    ],
+    "correctIndex": 0,
+    "explanation": "CRM helps record and manage customer relationships and interactions across the organisation."
+  },
+  {
+    "id": "CH02_Q03",
+    "chapter": 2,
+    "difficulty": "easy",
+    "question": "Which category of hardware includes routers and network switches?",
+    "options": [
+      "Processing Devices",
+      "Network Devices",
+      "Transaction Devices",
+      "Output and Display Devices"
+    ],
+    "correctIndex": 1,
+    "explanation": "Network devices connect equipment and move information between devices."
+  },
+  {
+    "id": "CH02_Q04",
+    "chapter": 2,
+    "difficulty": "medium",
+    "question": "A warehouse scanner fails; an IT employee restores the connection so daily operations can continue. What type of business process is this?",
+    "options": [
+      "Operational Process",
+      "Innovation Process",
+      "Support Process",
+      "Sales Process"
+    ],
+    "correctIndex": 2,
+    "explanation": "A support process keeps employees and core business activity working, as in the study guide’s scanner example."
+  },
+  {
+    "id": "CH02_Q05",
+    "chapter": 2,
+    "difficulty": "medium",
+    "question": "A manager reviews delivery and staffing information to decide how to respond to delays. Which BIS process category primarily describes this work?",
+    "options": [
+      "Supply Chain Process",
+      "Compliance Process",
+      "Customer Facing Process",
+      "Management Process"
+    ],
+    "correctIndex": 3,
+    "explanation": "Management processes supply information and guidance for managerial decisions."
+  },
+  {
+    "id": "CH02_Q06",
+    "chapter": 2,
+    "difficulty": "medium",
+    "question": "Which system is designed to coordinate materials, production-related information, inventory, and deliveries from suppliers to customers?",
+    "options": [
+      "Supply Chain Management (SCM)",
+      "Customer Relationship Management (CRM)",
+      "Project Management Software",
+      "Database Management Software"
+    ],
+    "correctIndex": 0,
+    "explanation": "SCM coordinates the flow of raw materials and products and links demand, supply and deliveries."
+  },
+  {
+    "id": "CH02_Q07",
+    "chapter": 2,
+    "difficulty": "medium",
+    "question": "Which role studies business needs and helps convert them into workable technical solutions?",
+    "options": [
+      "Data Analyst",
+      "Business Analyst",
+      "Database Administrator",
+      "Quality Assurance Tester"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Business Analyst translates business requirements into practical technology solutions."
+  },
+  {
+    "id": "CH02_Q08",
+    "chapter": 2,
+    "difficulty": "medium",
+    "question": "A company repeatedly uses product master records, captures an invoice, and prepares reporting aggregates. Which classification is correct, in that order?",
+    "options": [
+      "Transactional Data → Master Data → Analytical Data",
+      "Analytical Data → Transactional Data → Master Data",
+      "Master Data → Transactional Data → Analytical Data",
+      "Master Data → Analytical Data → Transactional Data"
+    ],
+    "correctIndex": 2,
+    "explanation": "Master data is reused, transactional data records business events, and analytical data supports reporting."
+  },
+  {
+    "id": "CH02_Q09",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "A company buys powerful ERP software but keeps inconsistent data and conflicting employee procedures. According to the BIS concept, what should management conclude?",
+    "options": [
+      "A BIS is defined entirely by its enterprise software, so the upgrade is complete.",
+      "Processes can be excluded because the software determines the system’s performance independently.",
+      "Better hardware is the only remaining requirement after installing ERP.",
+      "It must consider how all five BIS components interact, rather than improving software alone."
+    ],
+    "correctIndex": 3,
+    "explanation": "Changes to software affect people, processes, hardware and data; effective improvement must consider their interactions."
+  },
+  {
+    "id": "CH02_Q10",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "A firm counts its staff’s experience and an analogue refrigerator as part of its BIS because they indirectly help its work. Which BIS interpretation is being used?",
+    "options": [
+      "A broad BIS definition including indirect contributions",
+      "A narrow BIS definition limited to direct task support",
+      "A software-only BIS definition",
+      "A database-only BIS definition"
+    ],
+    "correctIndex": 0,
+    "explanation": "The broad view includes elements that indirectly contribute, including the exact examples in the guide."
+  },
+  {
+    "id": "CH02_Q11",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "In a factory, which pair correctly distinguishes Industrial Control Devices from Production Devices?",
+    "options": [
+      "A CNC machine controls access rights; a PLC stores employee records.",
+      "A PLC directs machinery; a CNC machine carries out physical production work.",
+      "A card terminal directs production; a router cuts materials.",
+      "A UPS collects sensor readings; a laptop assembles products."
+    ],
+    "correctIndex": 1,
+    "explanation": "PLCs are industrial control hardware; CNC machines are production hardware that carry out physical work."
+  },
+  {
+    "id": "CH02_Q12",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "A business wants all departments to share transaction information immediately while also maintaining detailed records of individual customer contacts. Which combination best addresses these distinct needs?",
+    "options": [
+      "CRM for company-wide finance and ERP for individual customer conversations",
+      "SCM for customer relationships and a firewall for departmental transactions",
+      "ERP for shared departmental information and CRM for customer interactions",
+      "BI dashboards as the sole shared transaction system and SCM for customer notes"
+    ],
+    "correctIndex": 2,
+    "explanation": "ERP connects core departmental activities, while CRM organizes customer interactions."
+  },
+  {
+    "id": "CH02_Q13",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "A designer wants to build an app; an engineer maintains user accounts and servers; another specialist tests software before release. Which role sequence fits?",
+    "options": [
+      "Project Manager → Data Analyst → Help Desk Technician",
+      "Business Analyst → Network Engineer → Database Administrator",
+      "Chief Technology Officer → Software Developer → Cybersecurity Specialist",
+      "Software Developer → Systems Administrator → Quality Assurance Tester"
+    ],
+    "correctIndex": 3,
+    "explanation": "Developers create applications; systems administrators maintain servers and accounts; QA testers validate software before release."
+  },
+  {
+    "id": "CH02_Q14",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "A retailer scans stock via RFID readers, displays results on a monitor, and accepts card payments. Which hardware categories appear in this order?",
+    "options": [
+      "Data Input Devices → Output and Display Devices → Transaction Devices",
+      "Transaction Devices → Processing Devices → Data Input Devices",
+      "Network Devices → Storage Devices → Communication Devices",
+      "Production Devices → Security Devices → Logistics Devices"
+    ],
+    "correctIndex": 0,
+    "explanation": "RFID readers capture input, monitors display output, and card terminals process transactions."
+  },
+  {
+    "id": "CH02_Q15",
+    "chapter": 2,
+    "difficulty": "hard",
+    "question": "A company introduces an invoicing app and then redesigns the approval workflow for invoices. Which statement best reflects how processes relate to the BIS?",
+    "options": [
+      "Processes are external to the BIS because only technical components belong to it.",
+      "Process structure determines how other BIS elements interact, so workflow redesign can change system requirements.",
+      "Hardware defines all business workflows, and employees cannot change them.",
+      "Invoice approval is inherently a customer-facing rather than a support or management activity."
+    ],
+    "correctIndex": 1,
+    "explanation": "The study guide describes processes as the BIS backbone: their structure determines interactions between other elements."
+  },
+  {
+    "id": "CH03_Q01",
+    "chapter": 3,
+    "difficulty": "easy",
+    "question": "Which data type stores values that are either true or false?",
+    "options": [
+      "Integer",
+      "Float",
+      "Boolean",
+      "String"
+    ],
+    "correctIndex": 2,
+    "explanation": "A Boolean data item has only two possible logical values, such as true and false."
+  },
+  {
+    "id": "CH03_Q02",
+    "chapter": 3,
+    "difficulty": "easy",
+    "question": "Which data management component specifies data ownership, permissions, and rules of use?",
+    "options": [
+      "Data Storage",
+      "Data Quality",
+      "Data Integration",
+      "Data Governance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Data governance defines responsibilities, access permissions, and rules for using data."
+  },
+  {
+    "id": "CH03_Q03",
+    "chapter": 3,
+    "difficulty": "easy",
+    "question": "Which kind of database represents data in tables with rows and columns?",
+    "options": [
+      "Relational Database",
+      "Object-Oriented Database",
+      "In-memory Database",
+      "Data Lake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Relational databases organize records in rows and attributes in columns."
+  },
+  {
+    "id": "CH03_Q04",
+    "chapter": 3,
+    "difficulty": "medium",
+    "question": "A firm asks why customer returns rose last month, using available operational records. What kind of analytics is it performing?",
+    "options": [
+      "Descriptive Analytics",
+      "Diagnostic Analytics",
+      "Predictive Analytics",
+      "Prescriptive Analytics"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diagnostic analytics analyzes why an observed result occurred."
+  },
+  {
+    "id": "CH03_Q05",
+    "chapter": 3,
+    "difficulty": "medium",
+    "question": "A marketing department needs a smaller analytical repository containing only its relevant subset of a company-wide data warehouse. What is it?",
+    "options": [
+      "Data Lake",
+      "In-memory Database",
+      "Data Mart",
+      "Object-Oriented Database"
+    ],
+    "correctIndex": 2,
+    "explanation": "A data mart is a smaller, department-specific version of a data warehouse."
+  },
+  {
+    "id": "CH03_Q06",
+    "chapter": 3,
+    "difficulty": "medium",
+    "question": "What is the function of a primary key in a relational table?",
+    "options": [
+      "Specifying the physical server where the table is stored",
+      "Automatically selecting a data visualization type",
+      "Converting all text columns into numerical data",
+      "Uniquely identifying each record within the table"
+    ],
+    "correctIndex": 3,
+    "explanation": "A primary key distinguishes each record from all other rows in its table."
+  },
+  {
+    "id": "CH03_Q07",
+    "chapter": 3,
+    "difficulty": "medium",
+    "question": "Which database type is especially appropriate for very large, differently structured data that may not share predefined uniform columns?",
+    "options": [
+      "Non-relational (NoSQL) Database",
+      "Relational Database",
+      "In-memory Database",
+      "Traditional spreadsheet table"
+    ],
+    "correctIndex": 0,
+    "explanation": "NoSQL databases flexibly handle diverse, large-scale data without requiring uniform predefined tables."
+  },
+  {
+    "id": "CH03_Q08",
+    "chapter": 3,
+    "difficulty": "medium",
+    "question": "Which statement about Business Intelligence (BI) matches the study guide?",
+    "options": [
+      "BI and Business Analytics are always identical technical disciplines.",
+      "BI combines and presents data, supporting mainly descriptive and some diagnostic analytics.",
+      "BI determines what management should do without using dashboards.",
+      "BI is restricted to predicting future results with machine learning."
+    ],
+    "correctIndex": 1,
+    "explanation": "BI prepares data and presents it in reports and dashboards, especially to support descriptive analytics."
+  },
+  {
+    "id": "CH03_Q09",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "A retailer combines consistent, current customer records from several systems, but has not assigned ownership or defined who may access which records. What is the main unresolved data management issue?",
+    "options": [
+      "Data Quality",
+      "Data Integration",
+      "Data Governance",
+      "Data Storage"
+    ],
+    "correctIndex": 2,
+    "explanation": "The records are integrated and accurate; governance is missing because responsibilities and access rules are undefined."
+  },
+  {
+    "id": "CH03_Q10",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "A company needs millisecond-like updates on a live dashboard and considers an in-memory database. Which trade-off is emphasized in the study guide?",
+    "options": [
+      "Fast disk-based access, but no ability to update records during operation.",
+      "Unlimited low-cost RAM capacity, but the database cannot serve dashboards.",
+      "Higher persistence than permanent storage, but slower access to live records.",
+      "Very fast RAM access, but data held only in RAM is lost on power failure."
+    ],
+    "correctIndex": 3,
+    "explanation": "In-memory databases are fast because they use RAM; RAM alone is volatile and more costly and limited than permanent storage."
+  },
+  {
+    "id": "CH03_Q11",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "An organisation collects raw web, app, and sensor data for possible future machine learning, before any fixed analytical structure is known. Which platform best fits?",
+    "options": [
+      "Data Lake",
+      "Data Warehouse",
+      "Data Mart",
+      "Relational reporting table"
+    ],
+    "correctIndex": 0,
+    "explanation": "A data lake keeps large, varied data in original form without initial cleaning or a fixed structure."
+  },
+  {
+    "id": "CH03_Q12",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "Sales declined. Analysts first identify the causes, next estimate demand, and finally recommend an inventory response. What is the correct progression?",
+    "options": [
+      "Descriptive → Diagnostic → Predictive",
+      "Diagnostic → Predictive → Prescriptive",
+      "Prescriptive → Descriptive → Diagnostic",
+      "Predictive → Diagnostic → Descriptive"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diagnosis addresses why; prediction addresses what will happen; prescription addresses what action should be taken."
+  },
+  {
+    "id": "CH03_Q13",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "A company moves its database to a cloud provider. Which pair states two disadvantages explicitly noted in the study guide?",
+    "options": [
+      "Inability to scale and mandatory purchase of database servers",
+      "Absence of backups and prohibition on internet access",
+      "Provider lock-in costs and restrictions on where certain data may be stored",
+      "Inability to use relational tables and lack of any provider maintenance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Switching cloud providers can be costly, and laws may constrain data location."
+  },
+  {
+    "id": "CH03_Q14",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "A database represents a building as one object containing floors, rooms, doors, and windows. What is the main analytical limitation noted for this type?",
+    "options": [
+      "It requires every building component to be placed in separate relational tables.",
+      "Objects cannot include smaller objects, so building components must be text fields.",
+      "It cannot represent connections between floors, rooms, and windows.",
+      "Analysis across the whole database may be less convenient than in relational databases."
+    ],
+    "correctIndex": 3,
+    "explanation": "Object-oriented databases preserve related objects as a whole but may be less convenient for database-wide analysis."
+  },
+  {
+    "id": "CH03_Q15",
+    "chapter": 3,
+    "difficulty": "hard",
+    "question": "A finance team compares one data warehouse for all departments with a dedicated finance data mart. Which distinction is correct?",
+    "options": [
+      "A data mart narrows analysis to a particular department’s needs; a data warehouse integrates data company-wide.",
+      "A data mart stores only uncleaned raw files, while a warehouse stores no analytical information.",
+      "A data warehouse exists only in RAM, while a data mart requires physical filing cabinets.",
+      "A data mart must replace every operational database, whereas a warehouse directly processes customer orders."
+    ],
+    "correctIndex": 0,
+    "explanation": "A warehouse brings company data together for analysis; a mart is a department-specific analytical subset."
+  },
+  {
+    "id": "CH04_Q01",
+    "chapter": 4,
+    "difficulty": "easy",
+    "question": "What distinguishes rule-based automation from AI in the study guide?",
+    "options": [
+      "Automation always needs physical robots; AI only uses software.",
+      "Automation repeats predefined rules; AI can apply patterns learned from examples.",
+      "Automation learns new rules without training; AI executes fixed instructions.",
+      "Automation applies only to production machines; AI only handles text."
+    ],
+    "correctIndex": 1,
+    "explanation": "Rule-based automation follows fixed instructions, whereas AI can learn patterns and apply them to new situations."
+  },
+  {
+    "id": "CH04_Q02",
+    "chapter": 4,
+    "difficulty": "easy",
+    "question": "What is a trigger in an automated business process?",
+    "options": [
+      "A human decision that ends every automated process",
+      "A failure that requires system replacement",
+      "An event or condition that starts the process",
+      "The last step carried out after an exception"
+    ],
+    "correctIndex": 2,
+    "explanation": "A trigger starts automation, for example form submission, a scheduled time, or a stock threshold."
+  },
+  {
+    "id": "CH04_Q03",
+    "chapter": 4,
+    "difficulty": "easy",
+    "question": "What does Robotic Process Automation (RPA) primarily use?",
+    "options": [
+      "Physical warehouse robots that carry goods between shelves",
+      "Neural networks that infer document meaning from examples",
+      "Sensors that regulate factory machinery",
+      "Software bots that repeat predefined actions through application screens"
+    ],
+    "correctIndex": 3,
+    "explanation": "RPA software bots carry out configured clicks and entries that a person would otherwise perform."
+  },
+  {
+    "id": "CH04_Q04",
+    "chapter": 4,
+    "difficulty": "medium",
+    "question": "A reimbursement request automatically moves to a manager for approval and then continues to Finance. Which technology is most directly illustrated?",
+    "options": [
+      "Workflow Automation",
+      "System Integration",
+      "Programmed Robots",
+      "Industrial Control"
+    ],
+    "correctIndex": 0,
+    "explanation": "Workflow automation advances work through predefined stages, including human approval steps."
+  },
+  {
+    "id": "CH04_Q05",
+    "chapter": 4,
+    "difficulty": "medium",
+    "question": "Two business programs exchange customer details automatically, without anyone re-entering the same information. Which category best describes the connection?",
+    "options": [
+      "Template-based Document Processing",
+      "System Integration",
+      "Robotic Process Automation",
+      "Programmed Robots"
+    ],
+    "correctIndex": 1,
+    "explanation": "System integration connects programs so they can exchange data automatically."
+  },
+  {
+    "id": "CH04_Q06",
+    "chapter": 4,
+    "difficulty": "medium",
+    "question": "A system copies fixed invoice fields from a familiar layout into accounting records without interpreting their meaning. Which technology is the best fit?",
+    "options": [
+      "Generative AI",
+      "Workflow Automation",
+      "Template-based Document Processing",
+      "Industrial Control"
+    ],
+    "correctIndex": 2,
+    "explanation": "Template-based document processing reads predetermined fields from standard document layouts."
+  },
+  {
+    "id": "CH04_Q07",
+    "chapter": 4,
+    "difficulty": "medium",
+    "question": "Which sequence represents the structure of a simple rule-based automation when an unusual case occurs?",
+    "options": [
+      "Action → Trigger → Rules, with every Exception ignored",
+      "Rules → Exception → Trigger, followed by automatic retraining",
+      "Trigger → AI model → Unrestricted Action without human review",
+      "Trigger → Rules → Action, with an Exception routed to a person"
+    ],
+    "correctIndex": 3,
+    "explanation": "A configured trigger initiates predefined rules and actions; exceptions can be forwarded to a human."
+  },
+  {
+    "id": "CH04_Q08",
+    "chapter": 4,
+    "difficulty": "medium",
+    "question": "Which of the four automation-selection criteria asks whether the work occurs often enough to justify automation?",
+    "options": [
+      "Rhythm",
+      "Reward",
+      "Risk",
+      "Rules"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rhythm assesses whether a process happens frequently enough to make automation worthwhile."
+  },
+  {
+    "id": "CH04_Q09",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A firm has an old application with no direct connection to its new system. It wants a bot to copy fixed data through the old program’s screens. Which option is best?",
+    "options": [
+      "System Integration through direct data exchange",
+      "Robotic Process Automation",
+      "Template-based Document Processing",
+      "Industrial Control"
+    ],
+    "correctIndex": 1,
+    "explanation": "RPA can repeat onscreen actions in legacy applications that cannot exchange data directly."
+  },
+  {
+    "id": "CH04_Q10",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A factory controller receives sensor signals and follows programmed instructions to adjust production. It does not learn from examples. How should this system be classified?",
+    "options": [
+      "Agentic AI managing industrial robots",
+      "Robotic Process Automation",
+      "Industrial Control without AI",
+      "AI-based classification"
+    ],
+    "correctIndex": 2,
+    "explanation": "Industrial controllers can respond to sensors using predefined rules; that does not inherently require AI."
+  },
+  {
+    "id": "CH04_Q11",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A company proposes automating a process with strategic value, high frequency, and consistent data, but many cases require complex human judgment. Which criterion is the weakest?",
+    "options": [
+      "Reward",
+      "Rhythm",
+      "Rules",
+      "Risk"
+    ],
+    "correctIndex": 3,
+    "explanation": "Risk assesses whether the task can run reliably without frequent exceptions or key decisions requiring a person."
+  },
+  {
+    "id": "CH04_Q12",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A process is reliable, strategic, and rule-based, but occurs only once every two years. Which reason most directly challenges automation?",
+    "options": [
+      "The Rhythm criterion may not be met.",
+      "The Rules criterion fails whenever the inputs are consistent.",
+      "The Reward criterion excludes strategic business processes.",
+      "The Risk criterion requires every task to involve AI."
+    ],
+    "correctIndex": 0,
+    "explanation": "Low frequency can make automation uneconomical even when the other three criteria are favorable."
+  },
+  {
+    "id": "CH04_Q13",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A warehouse robot moves containers using stored positions and approved routes, while a software bot enters shipping records in an older application. Which comparison is accurate?",
+    "options": [
+      "Both are RPA because both repeat programmed steps.",
+      "The warehouse robot acts physically; the RPA bot automates screen actions.",
+      "Only the software bot needs industrial sensors to operate machinery.",
+      "The warehouse robot must use AI because it moves physical objects."
+    ],
+    "correctIndex": 1,
+    "explanation": "Programmed robots perform physical movements, while RPA repeats preset interactions with software screens."
+  },
+  {
+    "id": "CH04_Q14",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A company defines a low-stock threshold. When it is reached, business software automatically prepares a draft purchase order using fixed rules. What is the most suitable classification?",
+    "options": [
+      "Template-based Document Processing",
+      "Agentic AI",
+      "Automation built into business software",
+      "Robotic Process Automation"
+    ],
+    "correctIndex": 2,
+    "explanation": "The study guide explicitly identifies inventory reorder automation as a rules-based capability built into business software."
+  },
+  {
+    "id": "CH04_Q15",
+    "chapter": 4,
+    "difficulty": "hard",
+    "question": "A manager argues that every technically automatable activity should be automated. Which response most accurately applies the study guide’s approach?",
+    "options": [
+      "Automate whenever technology exists, regardless of business value.",
+      "Automate only tasks requiring AI-driven pattern recognition.",
+      "Automate only processes where no humans participate at any stage.",
+      "Automate only when Reward, Rhythm, Rules, and Risk all support it."
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide states that a process should be selected only if all four screening questions can be answered yes."
+  },
+  {
+    "id": "CH05_Q01",
+    "chapter": 5,
+    "difficulty": "easy",
+    "question": "What is the main function of Generative AI?",
+    "options": [
+      "Creating new content such as text, images, audio, or code",
+      "Assigning every input to a known category",
+      "Predicting only the future demand for products",
+      "Storing company data in relational tables"
+    ],
+    "correctIndex": 0,
+    "explanation": "Generative AI creates new content, including text, images, audio, video, and code."
+  },
+  {
+    "id": "CH05_Q02",
+    "chapter": 5,
+    "difficulty": "easy",
+    "question": "What do the neurons in the input layer of a neural network do?",
+    "options": [
+      "Calculate and display the final user-facing result",
+      "Receive numerical input values and pass them to the next layer",
+      "Store all training examples as database records",
+      "Choose which company department owns the model"
+    ],
+    "correctIndex": 1,
+    "explanation": "Input layer neurons receive numerical input and transmit values onward through the network."
+  },
+  {
+    "id": "CH05_Q03",
+    "chapter": 5,
+    "difficulty": "easy",
+    "question": "What does Narrow AI mean?",
+    "options": [
+      "AI that exceeds humans in nearly all areas of thinking",
+      "AI able to perform a broad range of tasks at human level",
+      "AI trained to perform one or more specific tasks",
+      "AI that can operate only when disconnected from the internet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Narrow or weak AI performs specific tasks, unlike hypothetical AGI or superintelligence."
+  },
+  {
+    "id": "CH05_Q04",
+    "chapter": 5,
+    "difficulty": "medium",
+    "question": "A service estimates next month’s demand using earlier weekly demand values. Which model type best fits?",
+    "options": [
+      "Speech Recognition Model",
+      "Diffusion Model",
+      "Text-to-Speech Model",
+      "Time-Series Forecasting Model"
+    ],
+    "correctIndex": 3,
+    "explanation": "Time-series forecasting uses sequences of past values to estimate future ones."
+  },
+  {
+    "id": "CH05_Q05",
+    "chapter": 5,
+    "difficulty": "medium",
+    "question": "A system suggests films based on patterns in a person’s previous choices. Which functional AI category is represented?",
+    "options": [
+      "Recommendation AI",
+      "Classification and Recognition AI",
+      "Predictive AI for machine failure",
+      "Agentic AI"
+    ],
+    "correctIndex": 0,
+    "explanation": "Recommendation AI suggests options likely to be useful or interesting for a specific person."
+  },
+  {
+    "id": "CH05_Q06",
+    "chapter": 5,
+    "difficulty": "medium",
+    "question": "What happens during backpropagation in neural-network training?",
+    "options": [
+      "The network first receives new input and calculates its prediction.",
+      "The process works backward to estimate how changing weights would affect the loss.",
+      "The output layer permanently stores all correct answers without weight changes.",
+      "The dataset is converted into spoken words for user review."
+    ],
+    "correctIndex": 1,
+    "explanation": "Backpropagation calculates the influence of weights on the error and supports adjustments that reduce loss."
+  },
+  {
+    "id": "CH05_Q07",
+    "chapter": 5,
+    "difficulty": "medium",
+    "question": "An AI system examines product photographs and assigns each to defective or acceptable. Which type of AI is primarily involved?",
+    "options": [
+      "Generative AI",
+      "Recommendation AI",
+      "Classification and Recognition AI",
+      "Agentic AI"
+    ],
+    "correctIndex": 2,
+    "explanation": "Classification and recognition AI identifies inputs and assigns them to appropriate categories."
+  },
+  {
+    "id": "CH05_Q08",
+    "chapter": 5,
+    "difficulty": "medium",
+    "question": "A manager divides a difficult assignment into manageable steps, checks AI outputs, and makes targeted requests for improvement. Which two listed AI-use skills are demonstrated?",
+    "options": [
+      "Choosing an AI model and eliminating human accountability",
+      "Automating every task and removing all human review",
+      "Replacing subject expertise and recording no AI contribution",
+      "Breaking down complex tasks and refining results iteratively"
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide lists decomposition and iterative refinement as core management skills when using AI."
+  },
+  {
+    "id": "CH05_Q09",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "An AI system performs well on examples used during training and tuning. Which final check is required before training is considered complete in the guide’s nine-step process?",
+    "options": [
+      "Test on further new examples not seen during training or adjustments.",
+      "Retest exclusively on the original training examples until accuracy reaches 100%.",
+      "Discard the success criteria and judge results by appearance alone.",
+      "Begin using the AI immediately because the tuning examples were successful."
+    ],
+    "correctIndex": 0,
+    "explanation": "Step nine tests further unseen examples against the success criteria established earlier."
+  },
+  {
+    "id": "CH05_Q10",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "A neural network predicts an incorrect value. Which sequence correctly describes how training responds?",
+    "options": [
+      "Backpropagate → Display final answer → Select training hardware → Stop",
+      "Forward pass → Calculate loss → Backpropagate and adjust weights → Repeat",
+      "Calculate loss → Delete hidden layers → Accept original weights → Stop",
+      "Choose final answer → Apply the same weights forever → Collect data"
+    ],
+    "correctIndex": 1,
+    "explanation": "The model first produces a prediction, measures error, adjusts weights backward, and repeats with examples."
+  },
+  {
+    "id": "CH05_Q11",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "A supplier-assessment tool receives the goal of finding suitable vendors, plans research, compares offers, and prepares a report. Which functional type is the best fit?",
+    "options": [
+      "Recommendation AI limited to showing a list",
+      "Classification AI",
+      "Agentic AI",
+      "Text-to-Speech AI"
+    ],
+    "correctIndex": 2,
+    "explanation": "Agentic AI works toward a user-defined goal by planning and carrying out the necessary steps."
+  },
+  {
+    "id": "CH05_Q12",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "A company wants to estimate a specific numeric amount of revenue based on known business features rather than assign a category. Which model type best fits?",
+    "options": [
+      "Classification Model",
+      "Speech Recognition Model",
+      "Anomaly-Detection Model",
+      "Regression Model"
+    ],
+    "correctIndex": 3,
+    "explanation": "Regression models estimate numerical values from known information; classification assigns categories."
+  },
+  {
+    "id": "CH05_Q13",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "A large model produces an output but a reviewer cannot practically trace which interconnected computations yielded it. What concept describes this difficulty?",
+    "options": [
+      "AI Black Box",
+      "AI Hallucination",
+      "Limited Knowledge",
+      "Skill Erosion"
+    ],
+    "correctIndex": 0,
+    "explanation": "The black-box problem refers to AI models whose internal path to a result is very difficult to understand."
+  },
+  {
+    "id": "CH05_Q14",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "A company uses AI to shortlist job applicants. The manager assumes that because AI made the recommendation, no person needs to verify it. Which risk is most directly illustrated?",
+    "options": [
+      "Limited Knowledge caused by out-of-date training data",
+      "Overreliance on AI",
+      "Concentration of Power among AI providers",
+      "Speech Recognition failure"
+    ],
+    "correctIndex": 1,
+    "explanation": "Overreliance means accepting AI results without checking them, potentially overlooking errors."
+  },
+  {
+    "id": "CH05_Q15",
+    "chapter": 5,
+    "difficulty": "hard",
+    "question": "A tool generates a fluent report containing entirely invented sales figures that look credible. Which limitation best explains the problem?",
+    "options": [
+      "Data Portability",
+      "Neural-network Input Layers",
+      "AI Hallucinations",
+      "Unsupervised Learning"
+    ],
+    "correctIndex": 2,
+    "explanation": "AI hallucinations are plausible-looking but inaccurate or fabricated outputs."
+  },
+  {
+    "id": "CH06_Q01",
+    "chapter": 6,
+    "difficulty": "easy",
+    "question": "What does ransomware typically do?",
+    "options": [
+      "Copy approved backups to an isolated recovery system",
+      "Control which network traffic a firewall allows",
+      "Send a company’s scheduled newsletters automatically",
+      "Encrypt victims’ data and demand payment for a decryption key"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ransomware encrypts data and demands payment in exchange for decryption."
+  },
+  {
+    "id": "CH06_Q02",
+    "chapter": 6,
+    "difficulty": "easy",
+    "question": "What is phishing?",
+    "options": [
+      "Using deceptive messages to obtain sensitive information",
+      "Testing many passwords automatically using software",
+      "Intercepting data between two communicating parties",
+      "Recording system activity to detect security incidents"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phishing tricks users into disclosing sensitive information through fraudulent messages."
+  },
+  {
+    "id": "CH06_Q03",
+    "chapter": 6,
+    "difficulty": "easy",
+    "question": "Which security control confirms identity using at least two different authentication factors?",
+    "options": [
+      "Email Filtering",
+      "Multifactor Authentication",
+      "Security Monitoring",
+      "Network Firewall"
+    ],
+    "correctIndex": 1,
+    "explanation": "MFA combines different factors, such as a password and a physical security key."
+  },
+  {
+    "id": "CH06_Q04",
+    "chapter": 6,
+    "difficulty": "medium",
+    "question": "An attacker automatically tries many candidate passwords until one works. Which attack is described?",
+    "options": [
+      "SQL Injection",
+      "DNS Spoofing",
+      "Brute Force Attack",
+      "Cross-Site Scripting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Brute force attacks systematically test many password or key combinations."
+  },
+  {
+    "id": "CH06_Q05",
+    "chapter": 6,
+    "difficulty": "medium",
+    "question": "An attacker follows an authorised employee through a secure door without presenting credentials. Which technique is this?",
+    "options": [
+      "Pretexting",
+      "Baiting",
+      "Whaling",
+      "Tailgating"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tailgating is the physical entry of an unauthorised person by following an authorised individual."
+  },
+  {
+    "id": "CH06_Q06",
+    "chapter": 6,
+    "difficulty": "medium",
+    "question": "An attacker sends a fraudulent text message asking a user to confirm banking details. Which phishing subtype applies?",
+    "options": [
+      "Smishing",
+      "Vishing",
+      "Whaling",
+      "Spear Phishing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Smishing is phishing conducted using SMS or text messages."
+  },
+  {
+    "id": "CH06_Q07",
+    "chapter": 6,
+    "difficulty": "medium",
+    "question": "A security tool allows or blocks incoming and outgoing connections based on configured traffic rules. Which control is this?",
+    "options": [
+      "Password Manager",
+      "Firewall",
+      "Backup and Recovery",
+      "Security Awareness Training"
+    ],
+    "correctIndex": 1,
+    "explanation": "Firewalls filter network traffic using configured allow-and-block rules."
+  },
+  {
+    "id": "CH06_Q08",
+    "chapter": 6,
+    "difficulty": "medium",
+    "question": "Which sequence correctly orders the risk-chain elements described in the guide?",
+    "options": [
+      "Vulnerability → Impact → Threat → Trigger → Risk Event → Attack Path",
+      "Threat → Trigger → Impact → Vulnerability → Attack Path → Risk Event",
+      "Threat → Vulnerability → Attack Path → Trigger → Risk Event → Impact",
+      "Risk Event → Threat → Trigger → Impact → Vulnerability → Attack Path"
+    ],
+    "correctIndex": 2,
+    "explanation": "The six links in the risk chain run from threat and vulnerability through attack path and trigger to risk event and impact."
+  },
+  {
+    "id": "CH06_Q09",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "An attacker manipulates how a domain name resolves so users attempting to visit a legitimate address reach a fraudulent site. Which attack is this?",
+    "options": [
+      "Session Hijacking",
+      "Cross-Site Scripting",
+      "SQL Injection",
+      "DNS Spoofing"
+    ],
+    "correctIndex": 3,
+    "explanation": "DNS spoofing corrupts domain-name resolution to redirect users to fraudulent sites."
+  },
+  {
+    "id": "CH06_Q10",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "A criminal secretly intercepts and alters messages passing between two legitimate participants without necessarily taking over a logged-in browser session. Which technique best fits?",
+    "options": [
+      "Man-in-the-Middle Attack",
+      "Session Hijacking",
+      "Drive-by Download",
+      "Exploit Kit"
+    ],
+    "correctIndex": 0,
+    "explanation": "A man-in-the-middle attacker secretly intercepts or changes communication between two parties."
+  },
+  {
+    "id": "CH06_Q11",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "A website’s insecure database query lets an attacker manipulate statements and extract records from its backend database. What is the attack?",
+    "options": [
+      "Cross-Site Scripting",
+      "SQL Injection",
+      "Keylogging",
+      "Zero-Day Exploit"
+    ],
+    "correctIndex": 1,
+    "explanation": "SQL injection exploits insecure database queries to manipulate or obtain backend data."
+  },
+  {
+    "id": "CH06_Q12",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "A user opens a compromised website, and malicious software downloads automatically without a deliberate installation request. Which technique is this?",
+    "options": [
+      "Whaling",
+      "Quid pro Quo",
+      "Drive-by Download",
+      "Session Hijacking"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a drive-by download, a visit to a compromised website can automatically start malware downloading."
+  },
+  {
+    "id": "CH06_Q13",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "A criminal targets a chief executive with a carefully crafted fraudulent email. Which classification is most specific?",
+    "options": [
+      "Vishing",
+      "Smishing",
+      "Dumpster Diving",
+      "Whaling"
+    ],
+    "correctIndex": 3,
+    "explanation": "Whaling is phishing targeted particularly at senior executives or other high-value targets."
+  },
+  {
+    "id": "CH06_Q14",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "A company already operates below its defined Risk Floor. Which decision best reflects the study guide?",
+    "options": [
+      "Review whether additional risk-reduction measures justify their extra cost or burden.",
+      "Increase risk immediately because having less risk is inherently harmful.",
+      "Take emergency action because the Risk Ceiling has been exceeded.",
+      "Eliminate all cybersecurity controls until the risk level exceeds the floor."
+    ],
+    "correctIndex": 0,
+    "explanation": "Below the floor, lower risk is not bad, but further spending should be weighed against its benefit."
+  },
+  {
+    "id": "CH06_Q15",
+    "chapter": 6,
+    "difficulty": "hard",
+    "question": "Employees use a shared network where many compromised devices are remotely coordinated to flood a service with traffic, making it unavailable. What pairing best characterizes the resources and outcome?",
+    "options": [
+      "Keylogger used to perform DNS spoofing",
+      "Botnet used to carry out a DDoS attack",
+      "Ransomware used to extract SQL queries",
+      "Exploit kit used for legitimate load balancing"
+    ],
+    "correctIndex": 1,
+    "explanation": "A botnet is a remotely controlled network of compromised devices; a DDoS overloads services with traffic."
+  },
+  {
+    "id": "CH07_Q01",
+    "chapter": 7,
+    "difficulty": "easy",
+    "question": "Which EU regulation governs the processing of personal data?",
+    "options": [
+      "EU Artificial Intelligence Act",
+      "NIS2 Directive",
+      "General Data Protection Regulation (GDPR)",
+      "E-Commerce Act (ECG)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The GDPR protects people in connection with processing their personal data."
+  },
+  {
+    "id": "CH07_Q02",
+    "chapter": 7,
+    "difficulty": "easy",
+    "question": "Who decides the purposes and means of personal data processing under the GDPR?",
+    "options": [
+      "Processor",
+      "Data Subject",
+      "External Auditor",
+      "Controller"
+    ],
+    "correctIndex": 3,
+    "explanation": "The controller determines the purposes and means of processing personal data."
+  },
+  {
+    "id": "CH07_Q03",
+    "chapter": 7,
+    "difficulty": "easy",
+    "question": "What is the central distinction between digital compliance and Corporate Digital Responsibility (CDR)?",
+    "options": [
+      "Compliance concerns applicable legal requirements; CDR also considers whether digital use is responsible and fair.",
+      "Compliance requires fairness beyond law; CDR is limited to paying fines.",
+      "Compliance is only cybersecurity; CDR is only digital advertising.",
+      "Compliance applies to companies, whereas CDR applies solely to government agencies."
+    ],
+    "correctIndex": 0,
+    "explanation": "CDR goes beyond legal compliance to consider the broader effects of digital technology on people and the environment."
+  },
+  {
+    "id": "CH07_Q04",
+    "chapter": 7,
+    "difficulty": "medium",
+    "question": "An online shop needs a customer’s delivery address to fulfill an order. Which GDPR legal basis is particularly relevant?",
+    "options": [
+      "Consent for unrelated marketing",
+      "Contract Performance",
+      "Social Scoring",
+      "Public disclosure under the Media Act"
+    ],
+    "correctIndex": 1,
+    "explanation": "Processing necessary to fulfill an order may rely on contract performance rather than separate marketing consent."
+  },
+  {
+    "id": "CH07_Q05",
+    "chapter": 7,
+    "difficulty": "medium",
+    "question": "A gym selects the members who should receive a mailing; a printing firm uses provided addresses only as instructed. Which description is correct?",
+    "options": [
+      "The printing firm is the Controller and the gym is the Processor.",
+      "Both parties are always Controllers because both handle addresses.",
+      "The gym is the Controller and the printing firm is the Processor.",
+      "Neither party is responsible because invitations are not contracts."
+    ],
+    "correctIndex": 2,
+    "explanation": "The gym determines the purpose and means; the printer processes addresses on the gym’s behalf."
+  },
+  {
+    "id": "CH07_Q06",
+    "chapter": 7,
+    "difficulty": "medium",
+    "question": "Which website activity normally requires prior active consent under Austrian ePrivacy/TKG rules?",
+    "options": [
+      "Storage strictly necessary for a requested shopping basket",
+      "Storage used exclusively to transmit a communication",
+      "A strictly necessary function explicitly requested by the visitor",
+      "Cross-site tracking for personalised advertising"
+    ],
+    "correctIndex": 3,
+    "explanation": "Non-essential advertising tracking normally requires consent; strictly necessary shopping-cart functions may be exempt."
+  },
+  {
+    "id": "CH07_Q07",
+    "chapter": 7,
+    "difficulty": "medium",
+    "question": "A company sells goods through an Austrian webshop. Which law sets out key online provider details and ordering-process information?",
+    "options": [
+      "E-Commerce Act (ECG)",
+      "Network and Information Systems Security Act (NISG 2026)",
+      "Austrian Data Protection Act alone",
+      "EU Artificial Intelligence Act"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ECG requires accessible provider contact details and information about prices, ordering and corrections."
+  },
+  {
+    "id": "CH07_Q08",
+    "chapter": 7,
+    "difficulty": "medium",
+    "question": "Which AI Act role describes a company professionally using another company’s AI applicant-selection tool under its own responsibility?",
+    "options": [
+      "Provider",
+      "Deployer",
+      "Data Processor automatically",
+      "AI Auditor exclusively"
+    ],
+    "correctIndex": 1,
+    "explanation": "The deployer uses an AI system professionally; the provider develops or markets it under its name."
+  },
+  {
+    "id": "CH07_Q09",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "An e-commerce business stores information required for a customer’s cart and also activates cross-site advertising tracking before a visitor agrees. Which assessment matches the guide?",
+    "options": [
+      "Both activities are always exempt whenever they occur on the same website.",
+      "Tracking becomes lawful simply because consent can be withdrawn afterward.",
+      "Cart storage may be strictly necessary, but advertising tracking generally requires prior consent.",
+      "A pre-ticked acceptance box is sufficient for the advertising tracking."
+    ],
+    "correctIndex": 2,
+    "explanation": "The strictly necessary exception can cover shopping-cart storage; non-essential ad tracking generally needs prior informed active consent."
+  },
+  {
+    "id": "CH07_Q10",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "A company becomes aware of a personal data breach likely to risk individuals’ rights and freedoms. When must it notify the supervisory authority, where feasible?",
+    "options": [
+      "Within 24 hours under every GDPR incident regardless of risk",
+      "Only after one month and after a final audit",
+      "Only if affected individuals first request information",
+      "Within 72 hours of becoming aware, without undue delay"
+    ],
+    "correctIndex": 3,
+    "explanation": "For qualifying personal-data breaches, the GDPR calls for notification without undue delay, where feasible within 72 hours."
+  },
+  {
+    "id": "CH07_Q11",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "A hospital covered by NISG 2026 discovers a significant cyber incident. Which reporting sequence is correct under the study guide?",
+    "options": [
+      "Early warning within 24 hours; incident notification within 72 hours; final report within one month after the notification",
+      "Early warning within 72 hours; incident notification within one month; final report after one year",
+      "Only a 72-hour GDPR notification; no further cybersecurity reporting",
+      "A final report within 24 hours; early warning within one month"
+    ],
+    "correctIndex": 0,
+    "explanation": "NIS2/NISG reporting includes a 24-hour early warning, 72-hour incident notification, and a final report within one month after notification."
+  },
+  {
+    "id": "CH07_Q12",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "A retailer uses AI to assess applicants for employment. Under the guide’s description of the AI Act, which statement is most accurate?",
+    "options": [
+      "Every AI application used anywhere in HR is automatically prohibited.",
+      "Such specified high-risk use is not automatically banned, but requires safeguards and appropriate human oversight.",
+      "Only the software provider has duties; the employer using the tool never needs oversight.",
+      "The system becomes minimal-risk simply because a human receives its shortlist."
+    ],
+    "correctIndex": 1,
+    "explanation": "AI for applicant selection can be high risk and subject to safeguards; trained deployer staff must be able to review and intervene."
+  },
+  {
+    "id": "CH07_Q13",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "A medium-sized company uses office software but operates outside all sectors covered by NIS2/NISG. What can be concluded from the guide?",
+    "options": [
+      "Every medium-sized company using IT is automatically an Essential Entity.",
+      "Every company with a website must register as an Important Entity.",
+      "Its use of IT and its size alone do not establish that it is covered.",
+      "It is always covered solely because it processes employee data."
+    ],
+    "correctIndex": 2,
+    "explanation": "NIS2/NISG applies to specified sectors and qualifying entities, not merely because a company uses technology."
+  },
+  {
+    "id": "CH07_Q14",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "A webshop stores a customer’s address for a purchase and later wants to send marketing emails for unrelated products. Which conclusion best distinguishes the purposes?",
+    "options": [
+      "The original order automatically gives unlimited consent to unrelated future messages.",
+      "The address must never be used for fulfilling the original contract without newsletter consent.",
+      "The shop may send unrelated promotions whenever the email address is publicly visible.",
+      "The order address can be necessary for contract performance, while separate marketing needs its own applicable legal basis and email-marketing rules."
+    ],
+    "correctIndex": 3,
+    "explanation": "Contract performance supports necessary order processing; separate marketing is a different purpose with additional rules."
+  },
+  {
+    "id": "CH07_Q15",
+    "chapter": 7,
+    "difficulty": "hard",
+    "question": "A company deploys a digital service that is legal but uses manipulative interface choices to steer customers. Which CDR principle is most directly at issue?",
+    "options": [
+      "Enable informed, independent choices and avoid dark patterns",
+      "Use larger storage volumes regardless of purpose",
+      "Replace staff training with a new application",
+      "Treat legality as sufficient proof that a design is ethical"
+    ],
+    "correctIndex": 0,
+    "explanation": "CDR asks firms to avoid dark patterns and support informed, independent decisions even when a practice is legally permitted."
+  },
+  {
+    "id": "CH08_Q01",
+    "chapter": 8,
+    "difficulty": "easy",
+    "question": "What should a digitalization project identify before choosing a technological solution?",
+    "options": [
+      "A hardware brand to standardize across all departments",
+      "The business problem and strategic goal it should address",
+      "A cloud subscription before deciding the process",
+      "The programming language used by competing companies"
+    ],
+    "correctIndex": 1,
+    "explanation": "Digitalization projects should begin with relevant problems and strategic objectives, then select suitable technology."
+  },
+  {
+    "id": "CH08_Q02",
+    "chapter": 8,
+    "difficulty": "easy",
+    "question": "What does Shadow IT mean?",
+    "options": [
+      "A temporary parallel operation of new and old systems",
+      "A program that creates backups at night",
+      "Technology employees or departments use without the IT team’s knowledge or approval",
+      "An approved pilot of software in a selected department"
+    ],
+    "correctIndex": 2,
+    "explanation": "Shadow IT is technology used for work without organisational IT knowledge or approval."
+  },
+  {
+    "id": "CH08_Q03",
+    "chapter": 8,
+    "difficulty": "easy",
+    "question": "What is a Quick Win in digitalization project selection?",
+    "options": [
+      "A project requiring maximum investment before any benefits appear",
+      "A project that bypasses all user testing",
+      "A project chosen solely because its technology is new",
+      "A project offering high benefits with relatively low effort"
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide defines quick wins as high-benefit, low-effort projects that help build trust and experience."
+  },
+  {
+    "id": "CH08_Q04",
+    "chapter": 8,
+    "difficulty": "medium",
+    "question": "In which project phase is the feasibility of time, budget, and expertise assessed and expected benefits compared with costs?",
+    "options": [
+      "Feasibility & Business Case",
+      "System Design",
+      "Integration & Data Migration",
+      "Rollout, Adoption, & Change Management"
+    ],
+    "correctIndex": 0,
+    "explanation": "The feasibility and business case phase checks resources and compares expected benefits against costs."
+  },
+  {
+    "id": "CH08_Q05",
+    "chapter": 8,
+    "difficulty": "medium",
+    "question": "In which phase are redesigned process steps and responsibilities mapped before determining specific technical requirements?",
+    "options": [
+      "Development & Configuration",
+      "Process Design",
+      "Benefits Realization & Continuous Improvement",
+      "Pilot & Deployment Preparation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Process design determines the future workflow and responsibilities, from which technical requirements are derived."
+  },
+  {
+    "id": "CH08_Q06",
+    "chapter": 8,
+    "difficulty": "medium",
+    "question": "Which project phase connects new system parts to existing components and moves cleaned existing data into the new environment?",
+    "options": [
+      "System Design",
+      "Testing & Validation",
+      "Integration & Data Migration",
+      "Needs Identification & Strategic Alignment"
+    ],
+    "correctIndex": 2,
+    "explanation": "Integration and data migration link systems and transfer prepared legacy data while existing operations continue."
+  },
+  {
+    "id": "CH08_Q07",
+    "chapter": 8,
+    "difficulty": "medium",
+    "question": "Why does the study guide recommend managing concurrent digitalization initiatives as a project portfolio?",
+    "options": [
+      "To ensure every project is performed independently of other projects",
+      "To let each technology supplier set the organisation’s priorities",
+      "To replace strategic goals with a list of software purchases",
+      "To coordinate their dependencies and competition for shared resources"
+    ],
+    "correctIndex": 3,
+    "explanation": "A portfolio approach coordinates interacting initiatives and shared resources, with dedicated responsibility."
+  },
+  {
+    "id": "CH08_Q08",
+    "chapter": 8,
+    "difficulty": "medium",
+    "question": "What is the purpose of Change Champions?",
+    "options": [
+      "To support colleagues in adopting new working practices within their departments",
+      "To test server performance without involving end users",
+      "To replace all existing managers during deployment",
+      "To make all final design decisions without consulting IT"
+    ],
+    "correctIndex": 0,
+    "explanation": "Change champions are departmental contacts who actively support organisational change."
+  },
+  {
+    "id": "CH08_Q09",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "A team proves that each module works and that integrated components meet requirements. It then asks a limited group of staff to use the new system for actual daily work. Which phase describes this next activity?",
+    "options": [
+      "Testing & Validation",
+      "Pilot & Deployment Preparation",
+      "Development & Configuration",
+      "Benefits Realization & Continuous Improvement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pilot use involves real daily operations by selected users; testing and validation precede it."
+  },
+  {
+    "id": "CH08_Q10",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "A company installs software that digitally reproduces its old inefficient approval process without changing it. Which failure reason is most specifically illustrated?",
+    "options": [
+      "The feasibility assessment must always precede strategic alignment.",
+      "The company has hired too many change champions.",
+      "Processes are not improved before implementation.",
+      "The solution includes unnecessary parallel system operation."
+    ],
+    "correctIndex": 2,
+    "explanation": "The guide warns against carrying existing process weaknesses unchanged into a new system."
+  },
+  {
+    "id": "CH08_Q11",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "A company introduces the new system department by department, fixes problems after each group, and temporarily retains the legacy system with a defined cutoff. Which guidance is being applied?",
+    "options": [
+      "Immediate permanent operation of both systems without a cutoff",
+      "Replacement of pilot users with an entirely separate design team",
+      "Avoidance of employee support until the last deployment wave",
+      "Coordinated rollout waves with controlled parallel operation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Coordinated waves reduce risk, and a time-limited parallel run permits fallback without creating a permanent duplicate system."
+  },
+  {
+    "id": "CH08_Q12",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "A project team has finished its rollout. What is required to assess whether the project actually achieved its intended value?",
+    "options": [
+      "Measure realised benefits and continuously improve the solution with users.",
+      "Close the project based solely on management’s intuition about success.",
+      "Recreate the initial feasibility case without measuring outcomes.",
+      "Return to the old system because deployment is the final phase."
+    ],
+    "correctIndex": 0,
+    "explanation": "Benefits Realization & Continuous Improvement measures expected outcomes and iteratively refines workflows."
+  },
+  {
+    "id": "CH08_Q13",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "In the Change Curve, employees initially dismiss a proposed new system as unnecessary, then later try it and learn what works. Which pair of phases describes these reactions?",
+    "options": [
+      "Shock → Integration",
+      "Denial → Experimentation",
+      "Frustration → Decision",
+      "Depression → Shock"
+    ],
+    "correctIndex": 1,
+    "explanation": "Denial involves acting as if change is unnecessary; experimentation involves trying and learning the new way of working."
+  },
+  {
+    "id": "CH08_Q14",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "Two projects are funded separately but depend on the same staff and decision-makers. Both slow down, and nobody is accountable for coordination. Which corrective approach best matches the guide?",
+    "options": [
+      "Increase the number of isolated software purchases to speed up transformation.",
+      "Let both teams continue independently until their resource needs disappear.",
+      "Establish central portfolio coordination that considers dependencies and shared resources.",
+      "Postpone all employee training because shared resource conflicts are purely technical."
+    ],
+    "correctIndex": 2,
+    "explanation": "Digitalization initiatives need coordinated portfolio management and central accountability to avoid shared-resource conflicts."
+  },
+  {
+    "id": "CH08_Q15",
+    "chapter": 8,
+    "difficulty": "hard",
+    "question": "When should support for employee adoption first be planned, and how should it evolve according to the guide?",
+    "options": [
+      "Begin only after Benefits Realization has demonstrated success.",
+      "Begin before Needs Identification, and never change the plan afterward.",
+      "Begin only if employees reach the Integration phase of the Change Curve.",
+      "Begin during Process Design and refine it based on pilot experience."
+    ],
+    "correctIndex": 3,
+    "explanation": "The guide says change support is planned as early as Process Design and improved using pilot experience."
+  }
+]
