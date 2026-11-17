@@ -50,6 +50,7 @@ Der Programmcode wurde überwiegend KI-generiert und nicht vollständig manuell 
 Das Projekt dient daher nicht nur der Prüfungsvorbereitung, sondern auch dem praktischen Kennenlernen von KI-gestützter Entwicklung und grundlegenden Webtechnologien.
 
 **Design-Inspiration**
+
 Das Layout des Prüfungssimulators wurde in Anlehnung an STAGES – Digitalizing Organizations von Gerhard Fenkart-Fröschl erstellt. Die technische Umsetzung erfolgte mithilfe von ChatGPT.
 
 ## Haftungsausschluss und Unabhängigkeit
