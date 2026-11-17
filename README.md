@@ -26,6 +26,18 @@ Auf Basis der acht Study Guides wurden mithilfe von ChatGPT insgesamt 120 englis
 
 Die Anwendung funktioniert auf Desktop-Computern, Tablets und Smartphones direkt im Browser.
 
+## Lernguide – Introduction to Computer Science
+
+Ergänzend zum Prüfungssimulator steht ein [**Lernguide im Browser**](study-guide.html) zur Verfügung. Er behandelt fünf Grundlagenkapitel zur Informatik sowie die acht Kapitel des STAGES-Study-Guides „Digitalizing Organizations“.
+
+**Autor der Originalfassung:** [Claudiu Dangulea (@intiequals1)](https://github.com/intiequals1). Die Originalfassung entstand mit Unterstützung von Claude (Anthropic); die Markdown-Übertragung und ausgewählte sachliche Korrekturen wurden mit ChatGPT (OpenAI) unterstützt. Die fachliche Überprüfung ist nicht vollständig abgeschlossen.
+
+- [Lernguide online lesen](study-guide.html)
+- [Markdown-Fassung ansehen](Lernguide_Intro_to_CS_korrigiert.md)
+- [Änderungsprotokoll ansehen](Lernguide_Aenderungsprotokoll.md)
+
+Der Lernguide ist eine ergänzende studentische Lernhilfe und keine offizielle Publikation der FH Wien der WKW.
+
 ## Technische Umsetzung
 
 Der Simulator wurde mit HTML, CSS und JavaScript entwickelt. Die Fragen, Antwortmöglichkeiten und Erklärungen sind in einer separaten JSON-Datei gespeichert.

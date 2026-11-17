@@ -1,0 +1,2037 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Lernguide Introduction to Computer Science von Claudiu Dangulea"><title>Lernguide – Introduction to Computer Science</title>
+<style>
+:root{color-scheme:light dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.65;--accent:#2563eb}*{box-sizing:border-box}body{margin:0;background:light-dark(#f5f7fb,#0e1523);color:light-dark(#1b2736,#e5e9ef)}.top{position:sticky;top:0;z-index:3;background:light-dark(#ffffffed,#101827ee);border-bottom:1px solid light-dark(#dde3eb,#334155);backdrop-filter:blur(8px);padding:12px max(16px,calc((100vw - 1000px)/2));display:flex;justify-content:space-between;gap:20px;align-items:center}.top a{font-weight:650;text-decoration:none;color:inherit}.top a:hover,.article a:hover{color:var(--accent)}.wrap{max-width:1000px;margin:28px auto 70px;padding:0 18px}.article{padding:clamp(20px,5vw,56px);border-radius:18px;background:light-dark(white,#172235);box-shadow:0 4px 30px #0c1a3020;overflow-wrap:anywhere}.article h1{font-size:clamp(1.5rem,3vw,2rem);margin-top:2.3em;border-bottom:2px solid light-dark(#dbe5f5,#334155);padding-bottom:.3em;line-height:1.25}.article h1:first-child{margin-top:0}.article h2{font-size:1.35rem;margin-top:2em}.article h3{font-size:1.14rem}.article a{color:light-dark(#135ad6,#9ec1ff)}.article p{margin:.65em 0 1em}.article ul,.article ol{padding-left:1.5em}.article li{margin:.35em 0}.article blockquote{border-left:4px solid var(--accent);margin:1.2em 0;padding:.1em 1.2em;background:light-dark(#f0f5ff,#20304a)}.article table{border-collapse:collapse;display:block;overflow-x:auto;max-width:100%;font-size:.94rem;margin:1.3em 0}.article th,.article td{padding:9px 13px;border:1px solid light-dark(#d6deea,#46516a);text-align:left;vertical-align:top;min-width:110px}.article th{background:light-dark(#eef4fc,#26344a)}.article tr:nth-child(even){background:light-dark(#f9fbfe,#1b2a3f)}.article hr{border:0;border-top:1px solid light-dark(#e0e5ec,#3f4c5c);margin:2em 0}h1,h2,h3{scroll-margin-top:80px}footer{text-align:center;color:light-dark(#667085,#a0aec0);font-size:.8rem;margin:25px auto}button{background:none;border:1px solid light-dark(#ccd6e4,#516078);border-radius:7px;color:inherit;padding:6px 12px;cursor:pointer}@media print{.top{display:none}.article{box-shadow:none;padding:0}.wrap{margin:0;max-width:none}body{background:white;color:black}.article table{display:table}}
+</style></head><body><nav class="top"><a href="index.html">← Zum Prüfungssimulator</a><a href="#inhaltsübersicht">Inhalt ↑</a><button onclick="window.print()">Drucken</button></nav><main class="wrap"><article class="article"><h1 id="lernguide-introduction-to-computer-science">Lernguide – Introduction to Computer Science</h1>
+<p><strong>Autor der Originalfassung:</strong> Claudiu Dangulea · FH Wien der WKW<br />
+<strong>Originalstand:</strong> 17. November 2026<br />
+<strong>Format:</strong> korrigierte Markdown-Fassung auf Basis der Word-Datei</p>
+<h2 id="inhaltsübersicht">Inhaltsübersicht</h2>
+<ul>
+<li><a href="#hinweise-zur-ki-nutzung">Hinweise zur KI-Nutzung</a></li>
+<li><a href="#grundlagen-1-geschichte-der-informatik">Grundlagen 1 – Geschichte der Informatik</a></li>
+<li><a href="#grundlagen-2-hardware-und-software-wiederholung">Grundlagen 2 – Hardware und Software (Wiederholung)</a></li>
+<li><a href="#grundlagen-3-zahlensysteme-und-datendarstellung">Grundlagen 3 – Zahlensysteme und Datendarstellung</a></li>
+<li><a href="#grundlagen-4-algorithmen">Grundlagen 4 – Algorithmen</a></li>
+<li><a href="#grundlagen-5-weitere-grundbegriffe-cs-unplugged">Grundlagen 5 – Weitere Grundbegriffe (CS Unplugged)</a></li>
+<li><a href="#kapitel-1-welcome-to-the-world-of-digitalization">Kapitel 1 – Welcome to the World of Digitalization</a></li>
+<li><a href="#kapitel-2-what-exactly-is-a-business-information-system-bis">Kapitel 2 – What Exactly Is a Business Information System (BIS)?</a></li>
+<li><a href="#kapitel-3-data-management-and-business-analytics">Kapitel 3 – Data Management and Business Analytics</a></li>
+<li><a href="#kapitel-4-automation">Kapitel 4 – Automation</a></li>
+<li><a href="#kapitel-5-artificial-intelligence-ai">Kapitel 5 – Artificial Intelligence (AI)</a></li>
+<li><a href="#kapitel-6-cybercrime-and-cybersecurity">Kapitel 6 – Cybercrime and Cybersecurity</a></li>
+<li><a href="#kapitel-7-digital-compliance-and-corporate-digital-responsibility-cdr">Kapitel 7 – Digital Compliance and Corporate Digital Responsibility (CDR)</a></li>
+<li><a href="#kapitel-8-digitalization-projects">Kapitel 8 – Digitalization Projects</a></li>
+<li><a href="#quellenverzeichnis">Quellenverzeichnis</a></li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Hinweis zur überarbeiteten Fassung (17. November 2026):</strong> Grundlage ist der von Claudiu Dangulea mit Claude erstellte Lernguide. Diese Markdown-Fassung wurde mit ChatGPT (OpenAI) aus der Word-Datei übertragen und in ausgewählten sachlichen Punkten korrigiert. Die ursprüngliche KI-Nutzungserklärung dokumentiert die Erstellung der Word-Originalfassung; die unten ergänzten Quellen belegen einzelne Änderungen. Eine vollständige Validierung aller Aussagen anhand sämtlicher Lehrunterlagen ist damit nicht verbunden.</p>
+</blockquote>
+<h1 id="über-diesen-lernguide">Über diesen Lernguide</h1>
+<h2 id="aufbau">Aufbau</h2>
+<p>Der Lernguide hat zwei Teile: fünf Grundlagenkapitel der Informatik (Geschichte, Hardware und Software, Zahlensysteme und Datendarstellung, Algorithmen, weitere Grundbegriffe) und die acht Kapitel des Study Guide „Digitalizing Organizations“ (STAGES), jeweils mit Abschnitten, Unterthemen und Definitionen. Kapitel 1–8 folgen der Gliederung des Study Guide; englische Fachbegriffe sind beibehalten, damit sie mit den Prüfungsunterlagen übereinstimmen.</p>
+<p>Herkunftsangaben in Klammern, etwa „(CS Unplugged)“ oder „(Study Guide, Kapitel 2)“, verweisen auf das Quellenverzeichnis am Ende. „(Ergänzung)“ kennzeichnet Inhalte aus allgemeinem Fachwissen, die in keiner der genannten Quellen stehen. Öffentlich erreichbare Quellen sind dort verlinkt. Stand: 17. November 2026.</p>
+<h1 id="hinweise-zur-ki-nutzung">Hinweise zur KI-Nutzung</h1>
+<p>Dieser Lernguide ist mit Unterstützung eines KI-Systems entstanden. Die folgenden Angaben legen offen, wofür die KI eingesetzt wurde und wo ihre Grenzen liegen.</p>
+<ul>
+<li><p><strong>Werkzeug:</strong> Claude, Modell Claude Opus 5.5 (Anthropic), eingesetzt am 17. November 2026 in der Claude-App mit Zugriff auf die Kursunterlagen des Verfassers.</p>
+</li>
+<li><p><strong>Vorgaben des Verfassers:</strong> Aufgabenstellung, Auswahl der Kursunterlagen, Gliederung nach Kapiteln, Abschnitten und Unterthemen, Themenwünsche (Geschichte der Informatik, Hardware/Software, Zahlensysteme, Algorithmen), Nachvollziehbarkeit für Dritte und die Word-Vorlage stammen von Claudiu Dangulea.</p>
+</li>
+<li><p><strong>Von der KI erledigt:</strong></p>
+<ul>
+<li>Kursunterlagen gelesen und ausgewertet, vor allem den Study Guide zu Kapitel 1–8, CS Unplugged und Unterlagen zur CS50-Vorlesung „Algorithms“.</li>
+<li>Inhalte gegliedert, zusammengefasst und ins Deutsche übertragen.</li>
+<li>Themen, die in den Unterlagen fehlen oder nur angerissen werden (u. a. Geschichte der Informatik, Rechnerarchitektur, Hexadezimal- und Oktalsystem), aus allgemeinem Fachwissen ergänzt und mit „(Ergänzung)“ gekennzeichnet.</li>
+<li>Jahreszahlen der Zeittafel sowie öffentlich erreichbare Quellen und Rechtstexte per Websuche ermittelt und im Quellenverzeichnis verlinkt.</li>
+<li>Einen öffentlichen Übungsfragenkatalog (GitHub) mit dem Study Guide abgeglichen.</li>
+<li>Den Text in diese Word-Vorlage übertragen.</li>
+</ul>
+</li>
+<li><p><strong>Grenzen:</strong> KI-Zusammenfassungen können verkürzen, falsch gewichten oder Fehler enthalten. Der Lernguide ersetzt den Study Guide nicht. Die rechtlichen Angaben in Kapitel 7 geben den Stand des Study Guide wieder und sind keine Rechtsberatung.</p>
+</li>
+<li><p><strong>Verantwortung:</strong> Die inhaltliche Prüfung und die Verantwortung für die Verwendung liegen beim Verfasser.</p>
+</li>
+</ul>
+<h1 id="grundlagen-1-geschichte-der-informatik">Grundlagen 1 – Geschichte der Informatik</h1>
+<p>Die Informatik wächst aus drei Strängen zusammen: mechanischen Rechenmaschinen, der Lochkarten-Datenverarbeitung und der Theorie der Berechenbarkeit. Die Jahreszahlen der Zeittafel stammen überwiegend aus der Chronologie von lernhelfer.de, einzelne aus CS Unplugged und dem Skriptum von Pomberger.</p>
+<h2 id="begriff">Begriff</h2>
+<ul>
+<li><p>Informatik: Wissenschaft von der systematischen, automatischen Verarbeitung von Information mit Computern (Ergänzung). CS Unplugged beschreibt sie als Fachgebiet, das erforscht, wie Computer funktionieren und wie man schnelle, leicht bedienbare Software schreibt.</p>
+</li>
+<li><p>Teilgebiete (Ergänzung): theoretische Informatik (Automaten, Berechenbarkeit, Komplexität), technische Informatik (Hardware), praktische Informatik (Algorithmen, Programmierung, Betriebssysteme), angewandte Informatik (z. B. Wirtschaftsinformatik).</p>
+</li>
+</ul>
+<h2 id="zeittafel">Zeittafel</h2>
+<table>
+<thead>
+<tr>
+  <th>Jahr</th>
+  <th>Ereignis</th>
+  <th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>um 1623</td>
+  <td>Schickard baut die erste Rechenmaschine</td>
+  <td>Mechanisches Rechnen</td>
+</tr>
+<tr>
+  <td>1644</td>
+  <td>Pascal: erste erhaltene Maschine für Addition und Subtraktion</td>
+  <td>Mechanisches Rechnen</td>
+</tr>
+<tr>
+  <td>1673 / 1703</td>
+  <td>Leibniz: Vier-Spezies-Rechenmaschine; 1703 Abhandlung über das Binärsystem</td>
+  <td>Grundlage der Binärdarstellung</td>
+</tr>
+<tr>
+  <td>1822</td>
+  <td>Babbage demonstriert ein kleines Versuchsmodell seiner Difference Engine; die vollständige Maschine wird damals nicht fertiggestellt</td>
+  <td>Mechanische Berechnung mathematischer Tabellen</td>
+</tr>
+<tr>
+  <td>1890</td>
+  <td>Hollerith-Lochkartenmaschine bei der US-Volkszählung; 1896 Firma, ab 1924 IBM</td>
+  <td>Maschinelle Datenverarbeitung</td>
+</tr>
+<tr>
+  <td>1936/37</td>
+  <td>Turing und Post definieren Berechenbarkeit</td>
+  <td>Beginn der theoretischen Informatik</td>
+</tr>
+<tr>
+  <td>1938 / 1941</td>
+  <td>Zuse: Z1 mit Gleitkomma, Z3 in Betrieb</td>
+  <td>Programmgesteuerter Digitalrechner</td>
+</tr>
+<tr>
+  <td>1944/45</td>
+  <td>Von Neumann: ein Speicher für Programm und Daten; Merge Sort</td>
+  <td>Von-Neumann-Architektur</td>
+</tr>
+<tr>
+  <td>1947</td>
+  <td>Eine Motte wird im Relais des Harvard Mark II gefunden</td>
+  <td>Berühmter „Computer Bug“; der technische Begriff „Bug“ war bereits vorher gebräuchlich</td>
+</tr>
+<tr>
+  <td>1946</td>
+  <td>ENIAC (Röhrenrechner) geht in Betrieb</td>
+  <td>Elektronischer Großrechner</td>
+</tr>
+<tr>
+  <td>1948</td>
+  <td>Shannon: Information in Bits, Entropie</td>
+  <td>Informationstheorie</td>
+</tr>
+<tr>
+  <td>1950</td>
+  <td>Turing: „Computing Machinery and Intelligence“, Turing-Test</td>
+  <td>Beginn der KI-Debatte</td>
+</tr>
+<tr>
+  <td>1947</td>
+  <td>Erster funktionsfähiger Transistor bei Bell Labs</td>
+  <td>Grundlage für den späteren Ersatz vieler Elektronenröhren</td>
+</tr>
+<tr>
+  <td>ab 1965</td>
+  <td>Integrierte Schaltkreise (Chips)</td>
+  <td>Miniaturisierung</td>
+</tr>
+<tr>
+  <td>1966</td>
+  <td>ELIZA (Weizenbaum)</td>
+  <td>Frühes Sprachprogramm</td>
+</tr>
+<tr>
+  <td>um 1971</td>
+  <td>Hochintegrierte Chips; Intel 4004 als erster Mikroprozessor (Ergänzung)</td>
+  <td>Prozessor auf einem Chip</td>
+</tr>
+<tr>
+  <td>1970er</td>
+  <td>Lempel-Ziv-Kompression</td>
+  <td>Basis von ZIP, GIF, PNG</td>
+</tr>
+<tr>
+  <td>1976 / 1977</td>
+  <td>Apple I (1976) und Apple II (1977); frühe Personal Computer existierten auch von anderen Herstellern</td>
+  <td>Verbreitung des Personal Computers</td>
+</tr>
+</tbody>
+</table>
+<p>Shannons Jahr 1948 ist eine Ergänzung; CS Unplugged nennt Shannon ohne Jahr. Die Datierungen zu Difference Engine, Motte, Transistor und Apple wurden anhand zusätzlicher historischer Quellen präzisiert (siehe Quellenverzeichnis).</p>
+<h2 id="begriffe-aus-der-geschichte">Begriffe aus der Geschichte</h2>
+<ul>
+<li><p>Lochkarte: Datenträger, auf dem Löcher Zahlen und Buchstaben codieren; bis in die 1960er Standard der Datenverarbeitung.</p>
+</li>
+<li><p>Relais → Röhre → Transistor → integrierter Schaltkreis → Mikroprozessor: die Bauteil-Generationen, jede kleiner, schneller und billiger als die vorige (Ergänzung).</p>
+</li>
+<li><p>Stored Program (speicherprogrammiert): Programmanweisungen und Daten liegen im adressierbaren Speicher. Dadurch können Programme flexibel geladen und – unter entsprechenden Voraussetzungen – auch selbst verändert werden. Verzweigungen sind jedoch nicht ausschließlich auf diese Architektur beschränkt.</p>
+</li>
+<li><p>Berechenbarkeit: Was sich überhaupt durch einen Algorithmus lösen lässt; formalisiert durch die Turingmaschine (Ergänzung).</p>
+</li>
+</ul>
+<h1 id="grundlagen-2-hardware-und-software-wiederholung">Grundlagen 2 – Hardware und Software (Wiederholung)</h1>
+<p>Hardware ist die physische Ausstattung, Software sind die Programme, die ihr sagen, was sie tun soll (Study Guide, Kapitel 2). Der Study Guide beschreibt Hardware und Software aus Sicht eines Business Information Systems; Rechnerarchitektur und Speicherhierarchie sind ergänzt.</p>
+<h2 id="grundprinzipien">Grundprinzipien</h2>
+<ul>
+<li><p>EVA-Prinzip (Ergänzung): Eingabe → Verarbeitung → Ausgabe, dazu Speicherung.</p>
+</li>
+<li><p>Von-Neumann-Architektur (Ergänzung): Rechenwerk (ALU) und Steuerwerk bilden die CPU; dazu Arbeitsspeicher für Programm und Daten, Ein-/Ausgabeeinheiten und ein Bussystem, das alles verbindet.</p>
+</li>
+<li><p>Bit-Breite: Ein 32-Bit-Computer verarbeitet 32-Bit-Zahlen in einer Operation, ein 16-Bit-Computer braucht dafür zwei (CS Unplugged).</p>
+</li>
+</ul>
+<h2 id="speicher-und-datenträger">Speicher und Datenträger</h2>
+<ul>
+<li><p>Wie Bits physisch gespeichert werden: Transistor an/aus oder Kondensator geladen/entladen (Arbeitsspeicher), magnetische Ausrichtung (Festplatte), spiegelnd/nicht spiegelnd (CD, DVD) (CS Unplugged).</p>
+</li>
+<li><p>RAM: sehr schnell, aber flüchtig – ohne Strom sind die Daten weg; teurer und kleiner als dauerhafter Speicher (Kapitel 3, In-Memory-Datenbank).</p>
+</li>
+<li><p>Speicherhierarchie (Ergänzung): Register → Cache → RAM → SSD/Festplatte; je näher an der CPU, desto schneller, kleiner und teurer.</p>
+</li>
+</ul>
+<h2 id="hardware-kategorien-im-bis">Hardware-Kategorien im BIS</h2>
+<table>
+<thead>
+<tr>
+  <th>Kategorie</th>
+  <th>Aufgabe</th>
+  <th>Beispiele</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>End User Devices</td>
+  <td>Zugang zum System</td>
+  <td>Desktop, Laptop</td>
+</tr>
+<tr>
+  <td>Data Input Devices</td>
+  <td>Erfassen realer Daten</td>
+  <td>Barcode-Scanner, RFID-Leser</td>
+</tr>
+<tr>
+  <td>Output &amp; Display Devices</td>
+  <td>Anzeigen, Drucken</td>
+  <td>Monitor, Drucker</td>
+</tr>
+<tr>
+  <td>Network Devices</td>
+  <td>Geräte verbinden</td>
+  <td>Router, Switch</td>
+</tr>
+<tr>
+  <td>Processing Devices</td>
+  <td>Anwendungen ausführen</td>
+  <td>Server, GPU-Server</td>
+</tr>
+<tr>
+  <td>Storage Devices</td>
+  <td>Daten aufbewahren</td>
+  <td>NAS, SAN</td>
+</tr>
+<tr>
+  <td>Communication Devices</td>
+  <td>Sprache und Video</td>
+  <td>Webcam, VoIP-Telefon</td>
+</tr>
+<tr>
+  <td>Security Devices</td>
+  <td>Unerwünschten Zugriff abwehren</td>
+  <td>Firewall</td>
+</tr>
+<tr>
+  <td>Power Protection Devices</td>
+  <td>Kurze Stromausfälle überbrücken</td>
+  <td>USV, Akku</td>
+</tr>
+<tr>
+  <td>Industrial Control Devices</td>
+  <td>Maschinen steuern</td>
+  <td>SPS (PLC), HMI</td>
+</tr>
+<tr>
+  <td>Production Devices</td>
+  <td>Digitale Anweisung → physische Arbeit</td>
+  <td>Industrieroboter, CNC</td>
+</tr>
+<tr>
+  <td>Transaction Devices</td>
+  <td>Zahlungen abwickeln</td>
+  <td>Kassensystem, Kartenterminal</td>
+</tr>
+<tr>
+  <td>Logistics Devices</td>
+  <td>Waren bewegen</td>
+  <td>Fahrerlose Transportfahrzeuge, Förderband</td>
+</tr>
+</tbody>
+</table>
+<h2 id="software-arten">Software-Arten</h2>
+<ul>
+<li><p>Systemsoftware: steuert die Grundfunktionen des Computers (Betriebssystem, Sicherheits- und Hilfsprogramme). Anwendungssoftware: erfüllt eine konkrete Aufgabe für den Nutzer.</p>
+</li>
+<li><p>Sieben Kategorien (Kapitel 2): Betriebssystem (Windows, macOS, Linux), Produktivität (Office), Business Applications (ERP, CRM, SCM), Kommunikation &amp; Kollaboration (Outlook, Zoom, Slack), Datenbankmanagement (MySQL, Oracle), Sicherheit &amp; Utilities (Antivirus, Backup), Entwicklung (VS Code, GitHub).</p>
+</li>
+<li><p>Programm: Liste von Anweisungen für eine bestimmte Aufgabe; Programmiersprache: Sprache mit begrenztem Befehlsvorrat, die der Computer wörtlich ausführt (CS Unplugged).</p>
+</li>
+<li><p>Compiler übersetzt das ganze Programm vorab in Maschinencode, Interpreter führt es Anweisung für Anweisung aus (Ergänzung).</p>
+</li>
+<li><p>Firmware: fest im Gerät gespeicherte Steuersoftware (Ergänzung).</p>
+</li>
+</ul>
+<h2 id="cloud-servicemodelle-kapitel-1">Cloud-Servicemodelle (Kapitel 1)</h2>
+<ul>
+<li><p>IaaS: Server und Speicher mieten.</p>
+</li>
+<li><p>PaaS: Entwicklungs- und Betriebsumgebung ohne eigene Serververwaltung.</p>
+</li>
+<li><p>SaaS: fertige Software im Browser.</p>
+</li>
+<li><p>Serverless: Code in der Cloud ausführen und nur die tatsächliche Rechenzeit bezahlen.</p>
+</li>
+</ul>
+<h1 id="grundlagen-3-zahlensysteme-und-datendarstellung">Grundlagen 3 – Zahlensysteme und Datendarstellung</h1>
+<p>Computer stellen alles – Zahlen, Text, Bilder – mit nur zwei Zuständen dar, 0 und 1. Binärzahlen, Bilder, Kompression und Fehlererkennung stammen aus CS Unplugged (Teil I), Hexadezimal, Oktal und Umrechnung sind ergänzt.</p>
+<h2 id="stellenwertsysteme">Stellenwertsysteme</h2>
+<table>
+<thead>
+<tr>
+  <th>System</th>
+  <th>Basis</th>
+  <th>Ziffern</th>
+  <th>Beispiel für 255</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Dezimal</td>
+  <td>10</td>
+  <td>0–9</td>
+  <td>255</td>
+</tr>
+<tr>
+  <td>Binär (Dualsystem)</td>
+  <td>2</td>
+  <td>0, 1</td>
+  <td>1111 1111</td>
+</tr>
+<tr>
+  <td>Oktal (Ergänzung)</td>
+  <td>8</td>
+  <td>0–7</td>
+  <td>377</td>
+</tr>
+<tr>
+  <td>Hexadezimal (Ergänzung)</td>
+  <td>16</td>
+  <td>0–9, A–F</td>
+  <td>FF</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Stellenwert: Jede Stelle ist eine Potenz der Basis. Binär 10011 = 16 + 2 + 1 = 19.</p>
+</li>
+<li><p>Binärkarten-Übung (CS Unplugged): Karten mit 1, 2, 4, 8, 16 Punkten; jede Zahl von 0 bis 31 hat genau eine Darstellung, die größte ist 31 (alle Karten offen). Jede weitere Karte verdoppelt den Bereich.</p>
+</li>
+<li><p>Dezimal → binär (Ergänzung): fortlaufend durch 2 teilen, die Reste von unten nach oben lesen. 13 → 6 R1 → 3 R0 → 1 R1 → 0 R1 = 1101.</p>
+</li>
+<li><p>Binär → hexadezimal (Ergänzung): je 4 Bit sind eine Hex-Ziffer (1111 = F), je 3 Bit eine Oktalziffer.</p>
+</li>
+</ul>
+<h2 id="einheiten">Einheiten</h2>
+<ul>
+<li><p>Bit: eine 0 oder 1, die kleinste Informationseinheit.</p>
+</li>
+<li><p>Byte: 8 Bit, darstellbar sind 0 bis 255.</p>
+</li>
+<li><p>Mit n Bit lassen sich 2ⁿ verschiedene Werte darstellen (Ergänzung).</p>
+</li>
+<li><p>Präfixe (Ergänzung): Kilobyte = 1000 Byte (dezimal), Kibibyte = 1024 Byte (binär).</p>
+</li>
+</ul>
+<h2 id="text">Text</h2>
+<ul>
+<li><p>Zeichencodierung: Jedem Zeichen wird eine Zahl zugeordnet, die binär gespeichert wird (Geheimnachrichten-Übung: A = 1, B = 2 …).</p>
+</li>
+<li><p>ASCII: verbreitete Codierung für lateinische Schrift; Schriften mit mehr Zeichen brauchen Codierungen mit mehr Bits pro Zeichen (CS Unplugged). Diese Rolle hat heute Unicode, etwa als UTF-8 (Ergänzung).</p>
+</li>
+</ul>
+<h2 id="bilder">Bilder</h2>
+<ul>
+<li><p>Pixel: Bildpunkt; ein Schwarz-Weiß-Bild ist eine Folge von 0 und 1 pro Pixel (Faxgerät: ca. 1000 × 2000 Pixel).</p>
+</li>
+<li><p>Lauflängencodierung: Statt jedes Pixel einzeln zu speichern, wird gezählt, wie viele gleiche Pixel aufeinander folgen. Faxe schrumpfen so auf etwa ein Siebtel.</p>
+</li>
+<li><p>Farbbilder (Ergänzung): je Pixel Werte für Rot, Grün und Blau (RGB), meist 8 Bit pro Kanal.</p>
+</li>
+</ul>
+<h2 id="kompression">Kompression</h2>
+<ul>
+<li><p>Ziel: weniger Speicherplatz und schnellere Übertragung, ohne mehr Hardware.</p>
+</li>
+<li><p>Lempel-Ziv (LZ): verweist auf frühere Vorkommen gleicher Textstücke; Grundlage von ZIP, GIF, PNG; halbiert Text leicht.</p>
+</li>
+<li><p>Häufige Zeichen bekommen kürzere Codes (Prinzip des Morsecodes).</p>
+</li>
+<li><p>Grenze: Eine Nachricht lässt sich nicht unter ihre Entropie komprimieren (siehe Grundlagen 5).</p>
+</li>
+</ul>
+<h2 id="fehlererkennung-und--korrektur">Fehlererkennung und -korrektur</h2>
+<ul>
+<li><p>Paritätsbit: Zusatzbit, das die Anzahl der Einsen gerade macht. Mit Paritätsbits je Zeile und Spalte lässt sich ein einzelner Fehler nicht nur erkennen, sondern auch orten und korrigieren.</p>
+</li>
+<li><p>Prüfziffer: letzte Ziffer, die aus den übrigen berechnet wird, etwa bei ISBN, Barcodes und Kontonummern.</p>
+</li>
+<li><p>Fehlererkennung stellt fest, dass Daten beschädigt sind; Fehlerkorrektur rekonstruiert die Originaldaten.</p>
+</li>
+</ul>
+<h2 id="datentypen-kapitel-3">Datentypen (Kapitel 3)</h2>
+<p>Boolean (wahr/falsch), Integer (ganze Zahl), Float (Kommazahl), Date/Time, String (Text), Image, Audio &amp; Video, Object (mehrere zusammengehörige Werte).</p>
+<h1 id="grundlagen-4-algorithmen">Grundlagen 4 – Algorithmen</h1>
+<p>Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung, die einem Computer sagt, wie er ein Problem löst (Glossar Kapitel 1). Quellen sind CS Unplugged (Teil II), die CS50-Vorlesung „Algorithms“ der Harvard University (2023) und das Skriptum „Algorithmen und Datenstrukturen“ von Pomberger (JKU Linz).</p>
+<h2 id="begriff-und-eigenschaften">Begriff und Eigenschaften</h2>
+<ul>
+<li><p>Eigenschaften (Ergänzung): endlich beschrieben, eindeutig, ausführbar, terminiert nach endlich vielen Schritten.</p>
+</li>
+<li><p>Darstellung (Ergänzung): Pseudocode, Flussdiagramm (Programmablaufplan), Struktogramm, Programmcode.</p>
+</li>
+<li><p>Datenobjekt mit Schlüssel: Beim Sortieren werden Sätze nach einem Schlüsselattribut geordnet; struct bündelt zusammengehörige Felder, damit sie gemeinsam bewegt werden (CS50, Pomberger).</p>
+</li>
+</ul>
+<h2 id="suchen">Suchen</h2>
+<ul>
+<li><p>Suchbegriff: das, wonach gesucht wird (Wort, Barcode, Name).</p>
+</li>
+<li><p>Lineare Suche: ein Element nach dem anderen; schlechtester Fall n Schritte, bester 1.</p>
+</li>
+<li><p>Binäre Suche: nur auf sortierten Daten; prüft die Mitte und halbiert den Bereich. Höchstens ⌊log₂n⌋ + 1 Schritte; 10.000 Produkte in 14 Schritten.</p>
+</li>
+<li><p>Hashing: Aus dem Suchbegriff wird direkt die Speicherposition berechnet; meist sofort am Ziel. Kollision: zwei Schlüssel führen zur selben Position.</p>
+</li>
+<li><p>Zielkonflikt: Binäre Suche ist schnell, setzt aber Sortieren voraus, das selbst Zeit kostet.</p>
+</li>
+</ul>
+<h2 id="sortieren">Sortieren</h2>
+<table>
+<thead>
+<tr>
+  <th>Verfahren</th>
+  <th>Prinzip</th>
+  <th>Laufzeit</th>
+  <th>Stabil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Selection Sort</td>
+  <td>Minimum im Rest suchen, nach vorne tauschen</td>
+  <td>Θ(n²), n(n−1)/2 Vergleiche</td>
+  <td>Nein</td>
+</tr>
+<tr>
+  <td>Bubble Sort</td>
+  <td>Nachbarn vergleichen und tauschen</td>
+  <td>O(n²); Ω(n) nur mit Abbruch, wenn nichts getauscht wurde</td>
+  <td>Ja</td>
+</tr>
+<tr>
+  <td>Insertion Sort</td>
+  <td>Element an die richtige Stelle im sortierten Teil einfügen</td>
+  <td>Fast linear bei vorsortierten Daten</td>
+  <td>Ja</td>
+</tr>
+<tr>
+  <td>Merge Sort</td>
+  <td>Halbieren, beide Hälften sortieren, zusammenmischen</td>
+  <td>Θ(n log n); Zusatzspeicher n</td>
+  <td>Ja</td>
+</tr>
+<tr>
+  <td>Quicksort</td>
+  <td>Nach Pivot aufteilen, Teile rekursiv sortieren</td>
+  <td>Im Durchschnitt O(n log n), Worst Case O(n²); oft schnell in der Praxis</td>
+  <td>Nein</td>
+</tr>
+<tr>
+  <td>Bucket Sort</td>
+  <td>Verteilen nach bekanntem, kleinem Wertebereich</td>
+  <td>Unter geeigneten Annahmen O(n + k), mit k Buckets; kein Vergleichssortieren</td>
+  <td>–</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Stabil: Elemente mit gleichem Schlüssel behalten ihre Reihenfolge.</p>
+</li>
+<li><p>Für vergleichsbasiertes Sortieren gilt im Worst Case eine asymptotische Untergrenze von Ω(n log n).</p>
+</li>
+<li><p>Zum Anschauen: <a href="https://www.toptal.com/developers/sorting-algorithms">Sorting Algorithms Animations</a> und <a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">Comparison Sorting Visualization</a>.</p>
+</li>
+</ul>
+<h2 id="rekursion-und-teile-und-herrsche">Rekursion und Teile-und-Herrsche</h2>
+<ul>
+<li><p>Rekursion: Eine Funktion löst ein Problem, indem sie sich für ein kleineres Teilproblem selbst aufruft.</p>
+</li>
+<li><p>Rekursionsanker: nicht-rekursiver Fall, der die Kette beendet; ohne ihn entsteht Endlosrekursion.</p>
+</li>
+<li><p>Laufzeitkeller (Stack): Jeder Aufruf legt Parameter und lokale Variablen ab; zu tiefe Rekursion führt zum Absturz.</p>
+</li>
+<li><p>Endrekursion: Nach dem rekursiven Aufruf folgt keine Berechnung mehr; nur sie lässt sich direkt in eine Schleife umwandeln (Fakultät ist es nicht, ggT nach Euklid schon).</p>
+</li>
+<li><p>Teile und herrsche: Problem teilen, Teile lösen, Ergebnisse zusammensetzen (Merge Sort, Quicksort).</p>
+</li>
+</ul>
+<h2 id="laufzeit-und-komplexität">Laufzeit und Komplexität</h2>
+<ul>
+<li><p>O (höchstens), Ω (mindestens), Θ (genau) sind Wachstumsschranken; welcher Fall betrachtet wird (best, worst, average), ist eine eigene Frage.</p>
+</li>
+<li><p>Konstanten fallen weg. Hintereinander ausgeführte Teile: Maximum. Verschachtelte Teile: Produkt (zwei Schleifen über n = n²).</p>
+</li>
+<li><p>Polynomial (n², n³ …) vs. exponentiell (2ⁿ): Für große n ist jeder polynomielle Algorithmus schneller als ein exponentieller (CS Unplugged).</p>
+</li>
+<li><p>Brute Force: alle Möglichkeiten durchprobieren; wächst meist exponentiell.</p>
+</li>
+</ul>
+<h2 id="parallelität-und-graphen">Parallelität und Graphen</h2>
+<ul>
+<li><p>Sortiernetzwerk: Mehrere Vergleiche laufen gleichzeitig; das Sechs-Zahlen-Netz braucht 12 Vergleiche, aber nur 5 Zeitschritte. Nicht jede Aufgabe lässt sich parallelisieren.</p>
+</li>
+<li><p>Graph: Knoten und Kanten, die Beziehungen darstellen (nicht zu verwechseln mit einem Diagramm).</p>
+</li>
+<li><p>Minimaler Spannbaum: verbindet alle Punkte mit minimaler Gesamtlänge; ein gieriger (greedy) Algorithmus findet ihn effizient.</p>
+</li>
+</ul>
+<h1 id="grundlagen-5-weitere-grundbegriffe-cs-unplugged">Grundlagen 5 – Weitere Grundbegriffe (CS Unplugged)</h1>
+<p>Die übrigen Teile von CS Unplugged führen in Informationstheorie, Netzwerke, Automaten, schwere Probleme, Kryptographie und Mensch-Computer-Interaktion ein. Weiterführendes zur theoretischen Informatik nennt das Quellenverzeichnis.</p>
+<h2 id="informationstheorie">Informationstheorie</h2>
+<ul>
+<li><p>Information in Bit: Jede Ja/Nein-Antwort entspricht einem Bit (Claude Shannon).</p>
+</li>
+<li><p>Informationsgehalt hängt davon ab, was man schon weiß: Unwahrscheinliches trägt mehr Information.</p>
+</li>
+<li><p>Entropie: Informationsgehalt einer Nachricht; hängt von der Zahl der möglichen Ergebnisse und ihren Wahrscheinlichkeiten ab. Ein fairer Münzwurf = 1 Bit, eine gezinkte Münze weniger.</p>
+</li>
+<li><p>Entscheidungsbaum: Folge von Ja/Nein-Fragen, die zur Antwort führt („Zwanzig Fragen“).</p>
+</li>
+</ul>
+<h2 id="netzwerke">Netzwerke</h2>
+<ul>
+<li><p>Routing: den Weg einer Nachricht durch ein Netz bestimmen.</p>
+</li>
+<li><p>Stillstand (Deadlock): Alle warten aufeinander, niemand kommt weiter. Gleichzeitig geänderte Daten müssen während des Updates gesperrt werden.</p>
+</li>
+<li><p>Paket: Daten plus Header (Paketnummer, Anzahl, Bestätigung); Pakete können verloren gehen oder ihre Reihenfolge verlieren.</p>
+</li>
+<li><p>Protokoll: Regeln und Zusatzinformationen, die eine zuverlässige Übertragung sichern, etwa TCP und UDP.</p>
+</li>
+</ul>
+<h2 id="endliche-automaten-und-programmiersprachen">Endliche Automaten und Programmiersprachen</h2>
+<ul>
+<li><p>Endlicher Automat: Modell mit endlich vielen Zuständen; jede Eingabe führt in einen nächsten Zustand (Telefonmenü, Bankomat).</p>
+</li>
+<li><p>Programmiersprache: eingeschränktes Vokabular von Anweisungen, die der Computer exakt ausführt – auch wenn das Ergebnis unsinnig ist.</p>
+</li>
+<li><p>Bug: Programmfehler; Debugging ist das Finden und Beheben.</p>
+</li>
+</ul>
+<h2 id="schwere-probleme-hartnäckigkeit">Schwere Probleme (Hartnäckigkeit)</h2>
+<ul>
+<li><p>Kartenfärbung: Mindestzahl an Farben, damit benachbarte Flächen verschieden sind; Vier-Farben-Vermutung 1852, bewiesen 1976.</p>
+</li>
+<li><p>Dominierende Menge („Eiswagen“): möglichst wenige Knoten markieren, sodass jeder Knoten höchstens einen Schritt entfernt ist.</p>
+</li>
+<li><p>Steinerbaum: wie der minimale Spannbaum, aber mit zusätzlichen Punkten; dadurch viel schwerer.</p>
+</li>
+<li><p>Bei manchen <strong>präzise definierten Entscheidungsvarianten</strong> dieser Probleme ist kein Polynomialzeit-Algorithmus bekannt; solche Varianten können NP-vollständig sein (Ergänzung). Das gilt nicht pauschal für alle genannten Aufgaben: Planare Karten lassen sich beispielsweise mit höchstens vier Farben färben; die Frage nach einer 3-Färbung ist dagegen deutlich schwieriger. Die Aussage „NP-vollständig“ bezieht sich auf ein konkretes Entscheidungsproblem, nicht automatisch auf jede Formulierung einer Optimierungsaufgabe.</p>
+</li>
+</ul>
+<h2 id="kryptographie">Kryptographie</h2>
+<ul>
+<li><p>Ziel: sicher und privat kommunizieren und kontrollieren, was andere über einen erfahren.</p>
+</li>
+<li><p>Geheimnisse teilen: gemeinsam etwas berechnen (Durchschnittsalter), ohne Einzelwerte preiszugeben.</p>
+</li>
+<li><p>Kryptographisches Protokoll: faire Entscheidung zwischen Parteien, die einander nicht trauen (Münzwurf übers Telefon).</p>
+</li>
+<li><p>Public-Key-Verschlüsselung: Der öffentliche Schlüssel („Vorhängeschloss“) verschlüsselt, nur der private Schlüssel entschlüsselt; Grundlage von SSL/TLS.</p>
+</li>
+<li><p>Authentifizierung: nachweisen, dass eine Nachricht wirklich vom angegebenen Absender kommt.</p>
+</li>
+</ul>
+<h2 id="mensch-und-computer">Mensch und Computer</h2>
+<ul>
+<li><p>Mensch-Computer-Interaktion: Systeme so gestalten, bewerten und umsetzen, dass Menschen produktiv und sicher arbeiten. Viele „menschliche Fehler“ sind Gestaltungsfehler.</p>
+</li>
+<li><p>Turing-Test (1950): Ein Fragesteller kommuniziert per Fernschreiber mit Mensch und Computer; kann er sie nicht zuverlässig unterscheiden, gilt der Test als bestanden. Er misst Verhaltensäquivalenz, nicht Bewusstsein.</p>
+</li>
+<li><p>ELIZA (1966): frühes Dialogprogramm, das ein Gespräch mit einfachen Mustern vortäuscht.</p>
+</li>
+</ul>
+<h1 id="kapitel-1-welcome-to-the-world-of-digitalization">Kapitel 1 – Welcome to the World of Digitalization</h1>
+<p>Fünf Abschnitte: die drei Stufen der Digitalisierung, zehn digitale Geschäftsmodelle, 15 Trends, vier Wurzeltechnologien und ein Glossar für Manager.</p>
+<h2 id="11-digitization-digitalization-digital-transformation">1.1 Digitization, Digitalization, Digital Transformation</h2>
+<ol>
+<li><p>Digitization: Papier wird zur Datei (Rechnung scannen und als PDF speichern).</p>
+</li>
+<li><p>Digitalization: Ein Papierprozess wird durch einen Softwareprozess ersetzt (Rechnung im Billing-System erstellen und mailen).</p>
+</li>
+<li><p>Digital Transformation: Das ganze Unternehmen wird verändert, digitale Prozesse werden Kern des Geschäftsmodells (Onlineshop als Herz des Händlers).</p>
+</li>
+</ol>
+<h2 id="12-digital-business-models">1.2 Digital Business Models</h2>
+<p>Ein digitales Geschäftsmodell nutzt digitale Technologien, Daten und Online-Netzwerke als zentrale Elemente, um Kunden zu bedienen und Geld zu verdienen – im Gegensatz zu physischen Assets und Offline-Prozessen.</p>
+<table>
+<thead>
+<tr>
+  <th>Modell</th>
+  <th>Definition</th>
+  <th>Einnahme</th>
+  <th>Beispiele</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>E-Commerce</td>
+  <td>Waren oder Dienste online verkaufen</td>
+  <td>Kaufpreis plus Liefergebühr</td>
+  <td>Amazon, Etsy, Zalando</td>
+</tr>
+<tr>
+  <td>Subscription</td>
+  <td>Wiederkehrende Gebühr für laufenden Zugang</td>
+  <td>Monatliche oder jährliche Zahlung</td>
+  <td>Netflix, Spotify Premium</td>
+</tr>
+<tr>
+  <td>Freemium</td>
+  <td>Basisversion gratis für alle</td>
+  <td>Premiumfunktionen, mehr Inhalte, weniger Limits</td>
+  <td>Spotify, Canva, Dropbox</td>
+</tr>
+<tr>
+  <td>Advertising</td>
+  <td>Werbeplätze an Zielgruppe verkaufen</td>
+  <td>Nach Einblendungen oder Reaktionen</td>
+  <td>Google Ads, Meta Ads</td>
+</tr>
+<tr>
+  <td>Marketplace</td>
+  <td>Plattform verbindet unabhängige Verkäufer und Käufer, besitzt die Ware nicht</td>
+  <td>Provision pro Transaktion</td>
+  <td>Airbnb, Uber</td>
+</tr>
+<tr>
+  <td>SaaS</td>
+  <td>Anbieter hostet Software, Zugriff über das Internet</td>
+  <td>Abo je Plan</td>
+  <td>Microsoft 365, Salesforce</td>
+</tr>
+<tr>
+  <td>Pay per Use</td>
+  <td>Zahlung je verbrauchter Einheit</td>
+  <td>Gebühr je gemessener Nutzung</td>
+  <td>AWS Lambda, Zipcar</td>
+</tr>
+<tr>
+  <td>Affiliate</td>
+  <td>Kunden an andere Unternehmen vermitteln</td>
+  <td>Provision für getrackte Vermittlung</td>
+  <td>Amazon Associates</td>
+</tr>
+<tr>
+  <td>Licensing</td>
+  <td>Nutzung geistigen Eigentums erlauben</td>
+  <td>Lizenzgebühr und Royalties</td>
+  <td>Arm, Dolby</td>
+</tr>
+<tr>
+  <td>Data Monetization</td>
+  <td>Rechtmäßig erhobene, anonymisierte Daten als Insight-Produkt</td>
+  <td>Abo oder Projektgebühr</td>
+  <td>Experian, NielsenIQ</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-current-digitalization-trends">1.3 Current Digitalization Trends</h2>
+<table>
+<thead>
+<tr>
+  <th>Trend</th>
+  <th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Automation und RPA</td>
+  <td>Software, Hardware und AI übernehmen Routinearbeit; RPA = Software-Bots, die menschliche Bildschirmaktionen nachahmen</td>
+</tr>
+<tr>
+  <td>Generative AI</td>
+  <td>Erzeugt neue Texte, Bilder, Audio, Video; Ergebnis muss geprüft werden</td>
+</tr>
+<tr>
+  <td>AI Agents</td>
+  <td>Verfolgen ein Ziel über mehrere Schritte, planen und nutzen Werkzeuge selbst</td>
+</tr>
+<tr>
+  <td>Business Intelligence</td>
+  <td>Geschäftsdaten analysieren und als entscheidungsrelevante Information aufbereiten</td>
+</tr>
+<tr>
+  <td>Digital Customer Experience Platforms</td>
+  <td>Kundeninteraktionen über Website, App, Social Media und Filiale verbinden</td>
+</tr>
+<tr>
+  <td>Remote Work Technologies</td>
+  <td>Videokonferenz, geteilte Dokumente, Cloud-Ablage für ortsunabhängige Arbeit</td>
+</tr>
+<tr>
+  <td>Sustainable Digital Solutions</td>
+  <td>Digitale Werkzeuge senken Umweltwirkung; der Nutzen muss an real eingesparten Ressourcen gemessen werden</td>
+</tr>
+<tr>
+  <td>Cybersecurity</td>
+  <td>Schutz von Systemen und Daten; Zero Trust = jeder Nutzer und jedes Gerät wird vor dem Zugriff geprüft</td>
+</tr>
+<tr>
+  <td>Cloud First Operations</td>
+  <td>Cloud als bevorzugter Betriebsweg, aber nicht zwingend für jedes System</td>
+</tr>
+<tr>
+  <td>5G Connectivity</td>
+  <td>Mobilfunk mit hoher Datenrate, geringer Verzögerung, vielen Geräten</td>
+</tr>
+<tr>
+  <td>Low Code / No Code</td>
+  <td>Anwendungen mit visuellen Bausteinen statt Programmcode bauen</td>
+</tr>
+<tr>
+  <td>Edge Computing</td>
+  <td>Daten nahe am Entstehungsort verarbeiten, wenn Verzögerung teuer oder gefährlich wäre</td>
+</tr>
+<tr>
+  <td>AIOps</td>
+  <td>AI für den IT-Betrieb: Auffälligkeiten erkennen, Ausfälle vorhersagen, Routine automatisieren</td>
+</tr>
+<tr>
+  <td>Digital Twins</td>
+  <td>Laufend aktualisiertes digitales Abbild eines Objekts, Systems oder Prozesses</td>
+</tr>
+<tr>
+  <td>Quantum Computing</td>
+  <td>Nutzt Quantenphysik für bestimmte Probleme; für die meisten Geschäftszwecke noch im Entstehen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="14-the-four-root-technologies">1.4 The Four Root Technologies</h2>
+<ul>
+<li><p>Internet of Things: verbindet physische Objekte mit entfernten Computern; Geräte melden Zustände und führen Befehle aus, in Echtzeit, periodisch, ereignisgesteuert oder verzögert.</p>
+</li>
+<li><p>Cloud Computing: Rechenleistung eines Anbieters als Service; Kapazität wächst und schrumpft nach Bedarf, Abrechnung nach Abo oder Nutzung.</p>
+</li>
+<li><p>Big Data: Datenmengen, die Tabellenkalkulation und Standarddatenbanken überfordern. Volume (Menge), Velocity (Tempo neuer Daten), Variety (Formenvielfalt).</p>
+</li>
+<li><p>Artificial Intelligence: Software, die aus Beispielen trainiert wurde und Muster auf neue Daten anwendet.</p>
+</li>
+<li><p>Entstehung: Ziel festlegen → historische Beispiele sammeln → richtige Antwort zuordnen → trainieren → testen und verbessern → einsetzen und überwachen.</p>
+</li>
+<li><p>Typen: Recognition, Predictive, Recommendation, Optimization, Generative, Conversational, Agentic.</p>
+</li>
+</ul>
+<h2 id="15-digitalization-terms-every-modern-manager-needs-to-know">1.5 Digitalization Terms Every Modern Manager Needs to Know</h2>
+<table>
+<thead>
+<tr>
+  <th>Bereich</th>
+  <th>Begriff</th>
+  <th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Infrastruktur</td>
+  <td>API</td>
+  <td>Digitaler Bote, über den Softwaresysteme automatisch Informationen austauschen</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Cloud Computing</td>
+  <td>Programme und Daten auf Internet-Servern statt auf eigener Hardware</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Edge Computing</td>
+  <td>Daten nahe am Entstehungsort verarbeiten</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>IoT</td>
+  <td>Alltagsobjekte mit Internetverbindung, die selbst Daten senden</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>5G</td>
+  <td>Schnellste Mobilfunktechnik für viele vernetzte Geräte</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>SaaS / PaaS / IaaS</td>
+  <td>Software im Browser / Entwicklungsumgebung ohne Serververwaltung / Server und Speicher mieten</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Serverless Computing</td>
+  <td>Anwendungen ohne Serververwaltung; bezahlt wird nur die genutzte Rechenzeit</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Microservices</td>
+  <td>Große Anwendung in kleine, unabhängig aktualisierbare Teile zerlegt</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Server</td>
+  <td>Leistungsstarker Rechner, der anderen Computern Dienste bereitstellt</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Legacy System</td>
+  <td>Älteres System, noch in Betrieb, schwer mit Neuem zu verbinden</td>
+</tr>
+<tr>
+  <td>Infrastruktur</td>
+  <td>Scalability</td>
+  <td>Fähigkeit, mehr Last oder Wachstum effizient zu bewältigen</td>
+</tr>
+<tr>
+  <td>Sicherheit</td>
+  <td>Cybersecurity</td>
+  <td>Schutz von Computern, Netzen und Daten vor Angriffen</td>
+</tr>
+<tr>
+  <td>Sicherheit</td>
+  <td>Firewall</td>
+  <td>Kontrolliert, welche Daten ins Netz hinein- oder hinausdürfen</td>
+</tr>
+<tr>
+  <td>Sicherheit</td>
+  <td>VPN</td>
+  <td>Verschlüsselter Tunnel für die Internetverbindung</td>
+</tr>
+<tr>
+  <td>Sicherheit</td>
+  <td>Blockchain</td>
+  <td>Auf viele Rechner verteiltes, praktisch unveränderbares Transaktionsregister</td>
+</tr>
+<tr>
+  <td>Sicherheit</td>
+  <td>Biometrics</td>
+  <td>Identifikation über Fingerabdruck, Gesicht oder Stimme</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Big Data</td>
+  <td>Riesige Datenmengen, die Spezialwerkzeuge brauchen</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Data Analytics</td>
+  <td>Daten auf Muster und Trends untersuchen</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Business Intelligence</td>
+  <td>Werkzeuge und Prozesse, die Rohdaten in Entscheidungswissen verwandeln</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Predictive Analytics</td>
+  <td>Mit historischen Daten und Statistik künftige Entwicklungen vorhersagen</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Data Mining</td>
+  <td>Verborgene Muster in großen Datenbeständen finden</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Data Warehouse</td>
+  <td>Zentraler Speicher für strukturierte Daten aus vielen Quellen, für Analyse</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Data Lake</td>
+  <td>Speicher für Rohdaten im Originalformat</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>KPI</td>
+  <td>Messbare Kennzahl für den Fortschritt zu wichtigen Zielen</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Dashboard</td>
+  <td>Visuelle Anzeige der wichtigsten Kennzahlen in Echtzeit</td>
+</tr>
+<tr>
+  <td>Daten</td>
+  <td>Data Visualization</td>
+  <td>Daten als Diagramme, Grafiken, Karten darstellen</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Artificial Intelligence</td>
+  <td>Systeme, die Aufgaben lösen, die sonst menschliche Intelligenz brauchen</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Machine Learning</td>
+  <td>AI, die aus Datenmustern Vorhersagen oder Entscheidungen lernt</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Deep Learning</td>
+  <td>Machine Learning mit neuronalen Netzen für komplexe Muster</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Neural Network</td>
+  <td>Vom Gehirn inspiriertes System aus verbundenen Knoten</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Supervised / Unsupervised Learning</td>
+  <td>Lernen mit bekannten richtigen Antworten / Muster ohne Vorgaben finden</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>NLP</td>
+  <td>Computer verstehen, interpretieren und erzeugen menschliche Sprache</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Algorithm</td>
+  <td>Schritt-für-Schritt-Anleitung zur Lösung eines Problems</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>Chatbot / Voice Assistant</td>
+  <td>Programm für Text- bzw. Sprachdialoge</td>
+</tr>
+<tr>
+  <td>AI</td>
+  <td>AI Agent</td>
+  <td>Führt komplexe Aufgaben selbstständig aus und trifft Entscheidungen</td>
+</tr>
+<tr>
+  <td>Geschäftssoftware</td>
+  <td>ERP</td>
+  <td>Integriertes System für alle Kernprozesse (Finanzen, Produktion, HR)</td>
+</tr>
+<tr>
+  <td>Geschäftssoftware</td>
+  <td>CRM</td>
+  <td>Kundeninteraktionen und Verkaufschancen über den Kundenlebenszyklus verwalten</td>
+</tr>
+<tr>
+  <td>Geschäftssoftware</td>
+  <td>SCM</td>
+  <td>Material-, Waren-, Informations- und Geldfluss vom Lieferanten zum Kunden koordinieren</td>
+</tr>
+<tr>
+  <td>Geschäftssoftware</td>
+  <td>CMS</td>
+  <td>Webinhalte ohne Programmierkenntnisse erstellen und verwalten</td>
+</tr>
+<tr>
+  <td>Automatisierung</td>
+  <td>Automation</td>
+  <td>Aufgaben mit minimalem menschlichem Eingriff erledigen</td>
+</tr>
+<tr>
+  <td>Automatisierung</td>
+  <td>Business Process Automation</td>
+  <td>Komplexe Geschäftsabläufe automatisch ausführen</td>
+</tr>
+<tr>
+  <td>Automatisierung</td>
+  <td>RPA</td>
+  <td>Software-Roboter für repetitive, regelbasierte Bildschirmarbeit</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>Agile</td>
+  <td>Arbeit in kleinen, häufigen Iterationen mit laufendem Feedback</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>DevOps</td>
+  <td>Entwicklung und IT-Betrieb verbinden für schnellere, verlässliche Auslieferung</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>Use Case</td>
+  <td>Szenario, wie ein Nutzer mit einem System ein Ziel erreicht</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>User Story</td>
+  <td>Kurzbeschreibung einer Funktion aus Nutzersicht („Als … möchte ich …, damit …“)</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>UX / UI</td>
+  <td>Wie sich die Nutzung anfühlt / sichtbare Bedienelemente</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>A/B Testing</td>
+  <td>Zwei Varianten an verschiedenen Gruppen testen</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>Proof of Concept</td>
+  <td>Kleiner Test, ob eine Idee überhaupt machbar ist</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>MVP</td>
+  <td>Einfachste Produktversion, die frühe Kunden zufriedenstellt und Feedback liefert</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>Lean Startup</td>
+  <td>Schnell experimentieren und aus Kundenfeedback lernen</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>Innovation Lab</td>
+  <td>Eigener Raum oder eigenes Team für neue Ideen und Geschäftsmodelle</td>
+</tr>
+<tr>
+  <td>Methoden</td>
+  <td>Growth Hacking</td>
+  <td>Datengetriebene Experimente für schnelles, günstiges Wachstum</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>Digital Twin</td>
+  <td>Virtuelle Kopie eines physischen Objekts zur Simulation</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>Quantum Computing</td>
+  <td>Rechentechnik, die komplexe Probleme viel schneller lösen könnte</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>AR / VR / MR</td>
+  <td>Digitales über der realen Welt / völlig künstliche Umgebung / beides interagiert</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>Metaverse</td>
+  <td>Gemeinsame virtuelle 3D-Welt</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>NFT</td>
+  <td>Digitales Echtheitszertifikat für ein bestimmtes digitales Objekt</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>Cryptocurrency</td>
+  <td>Digitales Geld, durch Verschlüsselung gesichert</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>Robotics, 3D Printing, Drones, Autonomous Vehicles</td>
+  <td>Roboter, schichtweiser Druck aus digitalen Modellen, unbemannte Fluggeräte, selbstfahrende Fahrzeuge</td>
+</tr>
+<tr>
+  <td>Neue Technologien</td>
+  <td>Smart City / Industry 4.0</td>
+  <td>Stadt nutzt Daten für Infrastruktur und Lebensqualität / Automatisierung und Datenaustausch in der Produktion</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>Digital Transformation</td>
+  <td>Geschäftsweise und Wertschöpfung mit digitaler Technik grundlegend ändern</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>E-Commerce / Digital Marketing</td>
+  <td>Online kaufen und verkaufen / Werbung über digitale Kanäle</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>SEO / SEM</td>
+  <td>Bessere organische Platzierung in Suchmaschinen / bezahlte Suchanzeigen</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>Fintech</td>
+  <td>Unternehmen, die Finanzdienstleistungen mit Technik erneuern</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>Platform / Sharing / Gig Economy</td>
+  <td>Plattform vermittelt zwischen Nutzergruppen / Zugang statt Besitz / kurzfristige Aufträge statt Anstellung</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>Subscription / Freemium Model</td>
+  <td>Wiederkehrende Gebühr / Basis gratis, Premium kostenpflichtig</td>
+</tr>
+<tr>
+  <td>Wirtschaft</td>
+  <td>Digital Native</td>
+  <td>Mit digitaler Technik aufgewachsen</td>
+</tr>
+</tbody>
+</table>
+<h1 id="kapitel-2-what-exactly-is-a-business-information-system-bis">Kapitel 2 – What Exactly Is a Business Information System (BIS)?</h1>
+<p>Ein BIS ist ein verbundenes Ganzes aus People, Processes, Hardware, Software und Data, das relevante Information dann verfügbar macht, wenn sie gebraucht wird. Das Kapitel behandelt jede der fünf Komponenten in einem eigenen Abschnitt.</p>
+<h2 id="21-business-information-system">2.1 Business Information System</h2>
+<ul>
+<li><p>Enge Sicht: nur Elemente, die Geschäftsaufgaben direkt unterstützen.</p>
+</li>
+<li><p>Weite Sicht: auch indirekt Beitragendes (analoger Kühlschrank im Restaurant, Navi im Dienstwagen, Berufserfahrung).</p>
+</li>
+<li><p>Off-the-Shelf vs. Custom-Built: Standardkomponenten oder Individualentwicklung; das BIS muss zu Strategie, Größe und Branche passen.</p>
+</li>
+</ul>
+<h2 id="22-komponente-1-processes">2.2 Komponente 1: Processes</h2>
+<p>Prozess = Folge von Schritten, um eine Geschäftsaufgabe zu erledigen. Prozesse sind das Rückgrat: Ihre Struktur bestimmt, wie die anderen Komponenten zusammenwirken.</p>
+<table>
+<thead>
+<tr>
+  <th>Prozessart</th>
+  <th>Definition</th>
+  <th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Operational</td>
+  <td>Erzeugt das Produkt oder die Leistung</td>
+  <td>Bestellung prüfen, packen, versenden</td>
+</tr>
+<tr>
+  <td>Support</td>
+  <td>Hält die Arbeit ohne Unterbrechung am Laufen</td>
+  <td>Defekten Lagerscanner reparieren</td>
+</tr>
+<tr>
+  <td>Management</td>
+  <td>Hilft Managern bei Entscheidungen</td>
+  <td>Lieferverzug analysieren und reagieren</td>
+</tr>
+<tr>
+  <td>Innovation</td>
+  <td>Macht aus einer Idee eine Verbesserung</td>
+  <td>Prototyp einer leiseren Lampe testen</td>
+</tr>
+<tr>
+  <td>Compliance</td>
+  <td>Sichert die Einhaltung von Regeln</td>
+  <td>Sicherheitsaudit vor Freigabe</td>
+</tr>
+<tr>
+  <td>Customer Facing</td>
+  <td>Gestaltet die Reaktion auf Kunden</td>
+  <td>Lieferadresse ändern und bestätigen</td>
+</tr>
+<tr>
+  <td>Sales</td>
+  <td>Von der Anfrage zum Auftrag</td>
+  <td>Angebot erstellen, Auftrag anlegen</td>
+</tr>
+<tr>
+  <td>Supply Chain</td>
+  <td>Hält benötigtes Material verfügbar</td>
+  <td>Stoff nachbestellen, Lieferung annehmen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="23-komponente-2-people">2.3 Komponente 2: People</h2>
+<p>Personen und Gruppen, die das BIS nutzen oder sich auf seine Informationen stützen, intern wie extern.</p>
+<ul>
+<li><p>Managers: sehen die Leistung der Organisation und entscheiden.</p>
+</li>
+<li><p>Employees: erledigen ihre tägliche Arbeit damit.</p>
+</li>
+<li><p>IT: hält das System verfügbar und sicher, steuert Zugriffe.</p>
+</li>
+<li><p>Customers: verfolgen etwa den Bestellstatus.</p>
+</li>
+<li><p>Suppliers: erkennen, was die Organisation braucht.</p>
+</li>
+<li><p>Creditors: entscheiden über Kredite und überwachen Zahlungen.</p>
+</li>
+<li><p>Owners: sehen, ob Ziele erreicht werden.</p>
+</li>
+<li><p>Other Business Partners: koordinieren gemeinsame Arbeit (Logistikpartner, Handelsvertreter).</p>
+</li>
+</ul>
+<p><strong>IT-Rollen:</strong> CTO (Technologiestrategie und -investitionen), IT Director (Tagesbetrieb und Budget der IT), Systems Administrator (Server, Benutzerkonten, Kerndienste), Database Administrator (Datenbanken sicher, schnell, wiederherstellbar), Network Engineer (Netze), Software Developer (Code), Cybersecurity Specialist (Schutz vor Angriffen), Help Desk Technician (Alltagsprobleme), Business Analyst (Geschäftsbedarf in technische Lösungen übersetzen), Data Analyst (Muster in Daten), Project Manager (IT-Projekte in Zeit und Budget), QA Tester (Software vor Release prüfen).</p>
+<h2 id="24-komponente-3-hardware">2.4 Komponente 3: Hardware</h2>
+<p>Hardware ist die physische Ausstattung, die das System arbeiten lässt. Die 13 Kategorien stehen mit Beispielen in der Tabelle unter Grundlagen 2.</p>
+<h2 id="25-komponente-4-software">2.5 Komponente 4: Software</h2>
+<ul>
+<li><p>Software: Programme und Anweisungen, die der Hardware sagen, was und wie sie es tun soll.</p>
+</li>
+<li><p>Systemsoftware vs. Anwendungssoftware; sieben Kategorien (Betriebssystem, Produktivität, Business Applications, Kommunikation &amp; Kollaboration, Datenbankmanagement, Sicherheit &amp; Utilities, Entwicklung).</p>
+</li>
+<li><p>Business Application Software:</p>
+</li>
+<li><p>ERP: verbindet die Arbeit aller Abteilungen in einem gemeinsamen System; Eingaben einer Abteilung stützen sofort die anderen.</p>
+</li>
+<li><p>CRM: Beziehungen zu aktuellen und potenziellen Kunden; jede Interaktion stützt die nächste.</p>
+</li>
+<li><p>SCM: plant Roh- und Warenfluss vom Lieferanten zum Kunden; verbindet erwartete Nachfrage mit Material und Produktion, zeigt Bestände und Lieferungen.</p>
+</li>
+<li><p>Functional Area Software: Spezialprogramme für eine Abteilung (HR-Recruiting, Buchhaltung, Produktionsplanung).</p>
+</li>
+<li><p>Project Management Software: alle Projektinformationen an einem Ort; planen, koordinieren, Fortschritt überwachen.</p>
+</li>
+<li><p>Business Intelligence Tools: Daten aus ERP, CRM, SCM u. a. zusammenführen und als Reports und Dashboards aufbereiten.</p>
+</li>
+</ul>
+<h2 id="26-komponente-5-data">2.6 Komponente 5: Data</h2>
+<p>Daten sind die Fakten und Aufzeichnungen, mit denen das System arbeitet.</p>
+<ul>
+<li><p>Drei Metakategorien: Master Data (wiederholt genutzte Stammdaten), Transactional Data (Aufzeichnung eines Geschäftsvorfalls, z. B. Rechnung), Analytical Data (für Reporting und Entscheidungen).</p>
+</li>
+<li><p>15 Kategorien: Customer, Financial, Product, Inventory, Employee, Operational, Market, Competitor, Supplier &amp; Partner, Compliance &amp; Legal, Communication, Research &amp; Development, Geospatial &amp; Location, Digital Behavior, Sensor &amp; IoT Data.</p>
+</li>
+</ul>
+<h2 id="27-the-big-picture">2.7 The Big Picture</h2>
+<p>Die fünf Komponenten wirken nie isoliert: Jede Änderung an einer beeinflusst die anderen vier. Ein BIS lässt sich deshalb nicht optimieren, indem man nur einen Bereich (etwa die Software) verbessert.</p>
+<h1 id="kapitel-3-data-management-and-business-analytics">Kapitel 3 – Data Management and Business Analytics</h1>
+<p>Sieben Abschnitte führen vom einzelnen Datenwert über Datenmanagement und Datenbanken zu Analytics, BI und Analyseplattformen.</p>
+<h2 id="31-data-types">3.1 Data Types</h2>
+<p>Boolean (nur wahr/falsch), Integer (ganze Zahl), Float (Kommazahl), Date/Time, String (Text mit Buchstaben, Ziffern, Sonderzeichen), Image, Audio &amp; Video, Object Data (mehrere zusammengehörige Werte in einem Objekt, etwa Name, Adresse, Kundennummer).</p>
+<h2 id="32-internal-and-external-data">3.2 Internal and External Data</h2>
+<p>Interne Daten entstehen im Unternehmen, externe außerhalb.</p>
+<h2 id="33-data-management">3.3 Data Management</h2>
+<p>Daten über ihren gesamten Lebenszyklus sammeln, organisieren, pflegen und steuern. Sechs Komponenten:</p>
+<ol>
+<li><p>Data Storage: wo und wie Daten liegen, damit man sie wiederfindet.</p>
+</li>
+<li><p>Data Quality: laufend prüfen, korrigieren, vervollständigen, aktualisieren.</p>
+</li>
+<li><p>Data Governance: wer verantwortlich ist, wer zugreifen darf, welche Regeln gelten.</p>
+</li>
+<li><p>Data Integration: Daten verschiedener Systeme gemeinsam nutzbar machen.</p>
+</li>
+<li><p>Data Security: Schutz vor unbefugtem Zugriff, Diebstahl, Verlust.</p>
+</li>
+<li><p>Metadata Management: Daten über Daten pflegen (Herkunft, Bedeutung, letzte Aktualisierung).</p>
+</li>
+</ol>
+<h2 id="34-databases">3.4 Databases</h2>
+<ul>
+<li>Datenbank: speichert Daten dauerhaft und zentral; mehrere Nutzer und Anwendungen gleichzeitig. Ein DBMS speichert, liest, ändert und löscht. Welche Art passt, hängt von Menge, Struktur und Zweck der Daten ab.</li>
+</ul>
+<table>
+<thead>
+<tr>
+  <th>Typ</th>
+  <th>Prinzip</th>
+  <th>Geeignet für</th>
+  <th>Grenze</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Relational</td>
+  <td>Tabellen nach Themen; Spalte = Merkmal, Zeile = Datensatz; Primary Key identifiziert jeden Satz eindeutig; Abfragesprache SQL</td>
+  <td>Kleine bis mittlere, klar strukturierte Daten</td>
+  <td>Feste Tabellenstruktur</td>
+</tr>
+<tr>
+  <td>Non-relational (NoSQL)</td>
+  <td>Flexible Datenmodelle ohne einheitliche Tabellenspalten; können auf mehrere Server verteilt sein</td>
+  <td>Big Data, IoT, Social Media</td>
+  <td>–</td>
+</tr>
+<tr>
+  <td>In-Memory</td>
+  <td>Arbeitsdaten im RAM</td>
+  <td>Live-Dashboards, sofortige Updates</td>
+  <td>Datenverlust bei Stromausfall, begrenzt, teuer</td>
+</tr>
+<tr>
+  <td>Object-oriented</td>
+  <td>Objekte mit Unterobjekten (Gebäude → Stockwerke → Räume)</td>
+  <td>Zusammenhängende Ganzheiten</td>
+  <td>Auswertung über die ganze Datenbank schwieriger</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>On-Premises vs. Cloud-Datenbank. Vorteile der Cloud: keine eigenen Server, skalierbar, Anbieter übernimmt Wartung, oft bessere Sicherheitswerkzeuge, automatische Backups. Nachteile: Daten bei Dritten, ohne Internet kein Zugriff, laufende Kosten können eigene Server übersteigen, Anbieterwechsel teuer, Speicherort kann rechtlich eingeschränkt sein.</li>
+</ul>
+<h2 id="35-business-analytics">3.5 Business Analytics</h2>
+<p>Große Datenmengen auswerten, um zu verstehen, was im Unternehmen geschieht, und besser zu entscheiden.</p>
+<ol>
+<li><p>Descriptive: Was ist passiert?</p>
+</li>
+<li><p>Diagnostic: Warum ist es passiert?</p>
+</li>
+<li><p>Predictive: Was wird passieren? (interne und externe Daten)</p>
+</li>
+<li><p>Prescriptive: Was sollen wir tun?</p>
+</li>
+</ol>
+<h2 id="36-business-intelligence">3.6 Business Intelligence</h2>
+<p>BI führt Daten aus verschiedenen Quellen zusammen, bereitet sie auf und zeigt sie in Charts und Dashboards. Sie stützt vor allem die deskriptive, teils die diagnostische Analytics. BI und Business Analytics sind nicht dasselbe, werden im Alltag aber oft synonym verwendet.</p>
+<h2 id="37-data-platforms-for-analysis">3.7 Data Platforms for Analysis</h2>
+<ul>
+<li><p>Data Warehouse: Daten aus allen Unternehmensteilen an einem Ort, ausschließlich für Analyse; schnelle Abfragen für Reports und Trends.</p>
+</li>
+<li><p>Data Mart: kleiner Ausschnitt eines Warehouse für eine Abteilung; übersichtlicher und schneller.</p>
+</li>
+<li><p>Data Lake: große Mengen unterschiedlicher Rohdaten in Originalform (Web, Social Media, Apps, IoT), noch nicht bereinigt; für spätere Analyse, Machine Learning oder unbekannte Zwecke.</p>
+</li>
+</ul>
+<h1 id="kapitel-4-automation">Kapitel 4 – Automation</h1>
+<p>Fünf Abschnitte zu regelbasierter Automation ohne AI: Abgrenzung zu AI, Technologien, Szenarien, Aufbau und Auswahl geeigneter Prozesse.</p>
+<h2 id="41-automation-vs-artificial-intelligence">4.1 Automation vs. Artificial Intelligence</h2>
+<ul>
+<li><p>Automation: Eine Maschine folgt festen Regeln, jedes Mal gleich, ohne menschliches Zutun; sie entscheidet nicht selbst über neue Situationen.</p>
+</li>
+<li><p>AI: nutzt gelernte Muster, um eine Antwort vorherzusagen oder den nächsten Schritt zu wählen. AI-gestützte Automation behandelt Kapitel 5.</p>
+</li>
+</ul>
+<h2 id="42-automation-technologies">4.2 Automation Technologies</h2>
+<ul>
+<li><p>In Business-Software eingebaut: vorhandene Funktionen aktivieren und Regeln festlegen.</p>
+</li>
+<li><p>Workflow Automation: Arbeit läuft einen festen Pfad; bei Entscheidungen geht sie an eine Person und läuft danach automatisch weiter.</p>
+</li>
+<li><p>System Integration: Programme tauschen Daten automatisch aus, ohne erneute Eingabe.</p>
+</li>
+<li><p>Robotic Process Automation (RPA): Software-Bot wiederholt Klicks und Eingaben in Bildschirmmasken; kein physischer Roboter.</p>
+</li>
+<li><p>Template-based Document Processing: liest oder füllt feste Felder eines bekannten Layouts, ohne den Inhalt zu deuten.</p>
+</li>
+<li><p>Industrial Control: Steuerungscomputer bedienen Maschinen nach Programm und Sensorsignal.</p>
+</li>
+<li><p>Programmed Robots: führen vorab festgelegte physische Bewegungen aus; dafür ist keine AI nötig.</p>
+</li>
+</ul>
+<h2 id="43-business-automation-scenarios">4.3 Business Automation Scenarios</h2>
+<table>
+<thead>
+<tr>
+  <th>Technologie</th>
+  <th>Szenarien</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>In Business-Software eingebaut</td>
+  <td>Regelbasierte Erstattung, Garantieprüfung, Rechnung und Mahnung, Terminbuchung, Payroll, Bestellvorschlag bei Meldebestand, geplante IT-Wartung, Social-Media-Planung</td>
+</tr>
+<tr>
+  <td>Workflow Automation</td>
+  <td>Sales Follow-up, Spesenfreigabe, Onboarding, Mitarbeitergespräche planen, regelbasiertes Ticket-Routing</td>
+</tr>
+<tr>
+  <td>System Integration</td>
+  <td>Order Fulfillment, Bankabgleich, monatliches Finanzreporting</td>
+</tr>
+<tr>
+  <td>RPA</td>
+  <td>Dateneingabe in Altsystemen ohne direkte Schnittstelle</td>
+</tr>
+<tr>
+  <td>Template-based Document Processing</td>
+  <td>Felder aus Standardrechnung in die Buchhaltung übernehmen</td>
+</tr>
+<tr>
+  <td>Industrial Control</td>
+  <td>Produktionsablauf per SPS (PLC) steuern, bei Fehler Alarm</td>
+</tr>
+<tr>
+  <td>Programmed Robots</td>
+  <td>Regelbasierte Lagerlogistik mit gespeicherten Plätzen und Routen</td>
+</tr>
+</tbody>
+</table>
+<p>In der Praxis kombiniert ein Szenario oft mehrere Technologien.</p>
+<h2 id="44-setting-up-an-automation">4.4 Setting Up an Automation</h2>
+<ul>
+<li><p>Trigger: Ereignis, das den Ablauf startet (Formular, Uhrzeit, Meldebestand).</p>
+</li>
+<li><p>Rules: vordefinierte Anweisungen, denen das System folgt.</p>
+</li>
+<li><p>Action: der nächste Schritt, den das System ausführt.</p>
+</li>
+<li><p>Exception: Ein Mensch übernimmt, wenn die Regeln den Fall nicht abdecken.</p>
+</li>
+</ul>
+<p>Zusätzlich legt der Manager fest, welche Daten die Automation braucht.</p>
+<h2 id="45-choosing-the-right-automation-candidates">4.5 Choosing the Right Automation Candidates</h2>
+<p>Nur automatisieren, wenn alle vier Fragen mit Ja beantwortet sind:</p>
+<ul>
+<li><p>Reward: Stützt es direkt ein strategisches Ziel?</p>
+</li>
+<li><p>Rhythm: Kommt der Prozess oft genug vor?</p>
+</li>
+<li><p>Rules: Gibt es klare Anweisungen und Eingabedaten in einheitlichem Format?</p>
+</li>
+<li><p>Risk: Läuft es zuverlässig ohne häufige Sonderfälle oder menschliche Schlüsselentscheidungen?</p>
+</li>
+</ul>
+<h1 id="kapitel-5-artificial-intelligence-ai">Kapitel 5 – Artificial Intelligence (AI)</h1>
+<p>Zehn Abschnitte: was AI ist, wie sie entwickelt wird, wie neuronale Netze rechnen, welche Typen und Modelle es gibt, welche Fähigkeiten Manager brauchen und welche Risiken bestehen.</p>
+<h2 id="51-what-is-artificial-intelligence">5.1 What Is Artificial Intelligence?</h2>
+<p>AI ist Software, die Aufgaben erfüllt, die sonst menschliche Intelligenz brauchen: vorhersagen, Entscheidungen stützen oder treffen, empfehlen, Inhalte erzeugen. Sie braucht keine Regel für jeden Fall, sondern lernt Muster aus Beispielen. Dieses Lernen heißt Machine Learning.</p>
+<h2 id="52-the-nine-steps-of-developing-ai">5.2 The Nine Steps of Developing AI</h2>
+<ol>
+<li><p>Lernziel definieren.</p>
+</li>
+<li><p>Erfolg messbar machen.</p>
+</li>
+<li><p>Trainingshardware bereitstellen.</p>
+</li>
+<li><p>Trainingsdaten sammeln und aufbereiten.</p>
+</li>
+<li><p>Trainingscode schreiben.</p>
+</li>
+<li><p>Training starten, Muster erkennen.</p>
+</li>
+<li><p>Mit ungesehenen Beispielen testen und gegen Schritt 2 messen.</p>
+</li>
+<li><p>Einstellungen anpassen und erneut testen, bis die Kriterien erfüllt sind.</p>
+</li>
+<li><p>Abschlusstest mit Beispielen, die weder im Training noch beim Anpassen vorkamen.</p>
+</li>
+</ol>
+<h2 id="53-neural-networks">5.3 Neural Networks</h2>
+<ul>
+<li><p>Neuronales Netz: Rechenmodell, das aus Beispielen Muster lernt, um neue Eingaben zu verarbeiten.</p>
+</li>
+<li><p>Neuron: kleine Recheneinheit, vereinfacht eine mathematische Formel.</p>
+</li>
+<li><p>Input Layer (nimmt Zahlenwerte auf) → Hidden Layers (verarbeiten und geben weiter) → Output Layer (berechnet das Ergebnis).</p>
+</li>
+<li><p>Weights: bestimmen, wie stark ein Eingabewert zählt. Bias: verschiebt die Summe. Activation Function: wandelt sie in das weitergegebene Signal um.</p>
+</li>
+<li><p>Training: Forward Pass (Vorhersage) → Loss (Fehler gegenüber richtiger Antwort) → Backpropagation (rückwärts berechnen, wie Gewichte den Fehler beeinflussen, und anpassen) → wiederholen.</p>
+</li>
+</ul>
+<h2 id="54-ai-black-boxes">5.4 AI Black Boxes</h2>
+<p>Modell, dessen Weg zum Ergebnis für Menschen praktisch nicht nachvollziehbar ist, weil zu viele Berechnungen ineinandergreifen.</p>
+<h2 id="55-the-six-functional-types-of-ai">5.5 The Six Functional Types of AI</h2>
+<ul>
+<li><p>Predictive AI: sagt Zukünftiges voraus (Nachfrage, Maschinenausfall).</p>
+</li>
+<li><p>Classification &amp; Recognition AI: erkennt, was etwas ist, und ordnet es einer Kategorie zu (defekte Teile auf Fotos, Spracherkennung).</p>
+</li>
+<li><p>Recommendation AI: schlägt passende Optionen vor (Produkte, Filme).</p>
+</li>
+<li><p>Decision Support &amp; Optimization AI: wählt die beste Handlung oder hilft dabei (Routen, Schichtpläne).</p>
+</li>
+<li><p>Generative AI: erzeugt neue Inhalte (Text, Bild, Audio, Video, Code).</p>
+</li>
+<li><p>Agentic AI: plant und führt Schritte zu einem vorgegebenen Ziel selbst aus.</p>
+</li>
+</ul>
+<h2 id="56-ai-model">5.6 AI Model</h2>
+<p>Das Modell ist der Motor hinter einem AI-Tool; es erklärt, warum ein Tool Gästezahlen vorhersagt und ein anderes Musikvideos erzeugt. Fast alle Modelle durchlaufen die neun Schritte, unterscheiden sich aber in Aufbau und Training.</p>
+<h2 id="57-eleven-common-types-of-ai-models">5.7 Eleven Common Types of AI Models</h2>
+<table>
+<thead>
+<tr>
+  <th>Modell</th>
+  <th>Leistung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Large Language Model</td>
+  <td>Text verarbeiten, auf Fragen und Anweisungen antworten</td>
+</tr>
+<tr>
+  <td>Computer Vision</td>
+  <td>Bilder und Videos analysieren und erkennen</td>
+</tr>
+<tr>
+  <td>Speech Recognition</td>
+  <td>Gesprochene Sprache → Text</td>
+</tr>
+<tr>
+  <td>Text-to-Speech</td>
+  <td>Text → gesprochene Sprache</td>
+</tr>
+<tr>
+  <td>Multimodal</td>
+  <td>Mehrere Informationsarten verarbeiten oder erzeugen</td>
+</tr>
+<tr>
+  <td>Diffusion</td>
+  <td>Neue Inhalte erzeugen, z. B. Bild aus Beschreibung</td>
+</tr>
+<tr>
+  <td>Time-Series Forecasting</td>
+  <td>Künftige Werte aus vergangener Zeitreihe</td>
+</tr>
+<tr>
+  <td>Recommendation</td>
+  <td>Optionen aus Mustern früherer Entscheidungen vorschlagen</td>
+</tr>
+<tr>
+  <td>Classification</td>
+  <td>Eingabe einer Kategorie zuordnen</td>
+</tr>
+<tr>
+  <td>Regression</td>
+  <td>Einen Zahlenwert schätzen</td>
+</tr>
+<tr>
+  <td>Anomaly Detection</td>
+  <td>Ungewöhnliche Eingaben oder Verhalten erkennen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="58-narrow-ai-agi-asi">5.8 Narrow AI, AGI, ASI</h2>
+<ul>
+<li><p>Narrow AI (Weak AI): für eine oder wenige Aufgaben trainiert (Chatbot, Übersetzung, Gesichtserkennung).</p>
+</li>
+<li><p>AGI (im Alltag Strong AI): mögliche künftige AI, die viele Aufgaben etwa auf Menschenniveau löst.</p>
+</li>
+<li><p>ASI: hypothetische AI, die den Menschen in fast allen Denkbereichen übertrifft.</p>
+</li>
+</ul>
+<h2 id="59-nine-must-have-skills-for-using-ai-as-a-manager">5.9 Nine Must-Have Skills for Using AI as a Manager</h2>
+<p>Geeignete Aufgaben erkennen, passendes Tool wählen, klare Prompts schreiben, komplexe Aufgaben zerlegen, Ergebnisse iterativ verbessern, Datenschutz und Vertraulichkeit wahren, Workflows zwischen Mensch und AI gestalten, den AI-Beitrag dokumentieren, Fachwissen zur Prüfung einsetzen.</p>
+<h2 id="510-the-risks-and-limitations-of-ai">5.10 The Risks and Limitations of AI</h2>
+<table>
+<thead>
+<tr>
+  <th>Risiko</th>
+  <th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Hallucinations</td>
+  <td>Plausibel klingende, aber falsche oder erfundene Inhalte; AI berechnet wahrscheinliche Wortfolgen, statt zu verstehen</td>
+</tr>
+<tr>
+  <td>Limited Common Sense</td>
+  <td>Übersieht Alltagskontext</td>
+</tr>
+<tr>
+  <td>Limited Knowledge</td>
+  <td>Veraltetes Wissen aus den Trainingsdaten</td>
+</tr>
+<tr>
+  <td>Susceptibility to Errors</td>
+  <td>Gut in bekannten, fehleranfällig in neuen Situationen</td>
+</tr>
+<tr>
+  <td>Limits of Reasoning</td>
+  <td>Logisch klingende Antworten ohne verlässliche Regelanwendung</td>
+</tr>
+<tr>
+  <td>Bias</td>
+  <td>Systematische Benachteiligung von Personen oder Gruppen</td>
+</tr>
+<tr>
+  <td>Overreliance</td>
+  <td>Ungeprüfte Übernahme von Vorschlägen</td>
+</tr>
+<tr>
+  <td>Skill Erosion</td>
+  <td>Fähigkeiten verkümmern durch ständiges Delegieren</td>
+</tr>
+<tr>
+  <td>Accountability Gaps</td>
+  <td>Unklar, wer bei Fehlern verantwortlich ist</td>
+</tr>
+<tr>
+  <td>Intellectual Property Risks</td>
+  <td>Unklar, ob Rechte verletzt werden oder wem sie gehören</td>
+</tr>
+<tr>
+  <td>Data Privacy Violations</td>
+  <td>Unzulässige Verarbeitung oder Eingabe personenbezogener Daten in AI-Tools kann gegen Datenschutzrecht verstoßen</td>
+</tr>
+<tr>
+  <td>Misinformation &amp; Deepfakes</td>
+  <td>Täuschend echte, falsche Inhalte</td>
+</tr>
+<tr>
+  <td>Job Displacement</td>
+  <td>Jobs fallen weg, neue verlangen andere Fähigkeiten</td>
+</tr>
+<tr>
+  <td>Concentration of Power</td>
+  <td>Abhängigkeit von wenigen Anbietern</td>
+</tr>
+<tr>
+  <td>Surveillance &amp; Loss of Privacy</td>
+  <td>AI erschließt Privates, das nie offengelegt wurde</td>
+</tr>
+<tr>
+  <td>Autonomous Weapons</td>
+  <td>Angriff auf falsche Ziele, bevor ein Mensch eingreifen kann</td>
+</tr>
+</tbody>
+</table>
+<h1 id="kapitel-6-cybercrime-and-cybersecurity">Kapitel 6 – Cybercrime and Cybersecurity</h1>
+<p>Sieben Abschnitte: Grundlagen, technische Angriffe, Social Engineering, Web Tracking, Schutzmaßnahmen, Risk Chain und Risk Tolerance.</p>
+<h2 id="61-cybercrime-basics">6.1 Cybercrime – Basics</h2>
+<ul>
+<li><p>Cybercrime: jede illegale Aktivität über oder gegen digitale Systeme; zwei Kategorien, oft kombiniert.</p>
+</li>
+<li><p>Kosten: direkter finanzieller Schaden, Betriebsstillstand, Wiederherstellung, Strafen bei verletzten Pflichten, Schadenersatz und Rechtskosten, Verlust oder Zerstörung von Information, Reputationsschaden.</p>
+</li>
+</ul>
+<h2 id="62-category-1-technical-attacks">6.2 Category 1: Technical Attacks</h2>
+<p>Greifen Computersysteme mit Schadcode an und nutzen Schwachstellen.</p>
+<table>
+<thead>
+<tr>
+  <th>Angriff</th>
+  <th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Brute Force</td>
+  <td>Automatisiert viele Passwort- oder Schlüsselkombinationen probieren</td>
+</tr>
+<tr>
+  <td>Drive-by Download</td>
+  <td>Malware lädt sich beim Besuch einer manipulierten Website automatisch</td>
+</tr>
+<tr>
+  <td>Session Hijacking</td>
+  <td>Aktive Sitzung durch gestohlene Sitzungsdaten übernehmen</td>
+</tr>
+<tr>
+  <td>DNS Spoofing</td>
+  <td>Manipulierte Namensauflösung leitet auf gefälschte Seiten</td>
+</tr>
+<tr>
+  <td>Exploit Kit</td>
+  <td>Findet Schwachstellen automatisch und setzt passende Exploits ein</td>
+</tr>
+<tr>
+  <td>Keylogger</td>
+  <td>Zeichnet Tastatureingaben auf</td>
+</tr>
+<tr>
+  <td>Botnet</td>
+  <td>Netz gekaperter Geräte, ferngesteuert für koordinierte Angriffe</td>
+</tr>
+<tr>
+  <td>Man-in-the-Middle</td>
+  <td>Fängt Kommunikation zwischen zwei Parteien heimlich ab und verändert sie eventuell</td>
+</tr>
+<tr>
+  <td>Cross-Site Scripting</td>
+  <td>Schadskript in vertrauenswürdiger Website, läuft im Browser des Nutzers</td>
+</tr>
+<tr>
+  <td>Zero-Day Exploit</td>
+  <td>Nutzt eine unbekannte Lücke, bevor ein Patch existiert</td>
+</tr>
+<tr>
+  <td>SQL Injection</td>
+  <td>Manipuliert unsichere Datenbankabfragen, um Daten zu verändern oder auszulesen</td>
+</tr>
+<tr>
+  <td>DDoS</td>
+  <td>Überflutet System oder Netz mit Datenverkehr, Dienst fällt aus</td>
+</tr>
+<tr>
+  <td>Ransomware</td>
+  <td>Verschlüsselt Daten und fordert Lösegeld für den Schlüssel</td>
+</tr>
+<tr>
+  <td>Malware</td>
+  <td>Oberbegriff für Schadsoftware</td>
+</tr>
+</tbody>
+</table>
+<h2 id="63-category-2-social-engineering-attacks">6.3 Category 2: Social Engineering Attacks</h2>
+<p>Nutzen menschliche Psychologie, um an Informationen oder Zugang zu kommen.</p>
+<table>
+<thead>
+<tr>
+  <th>Angriff</th>
+  <th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Tech Support Scam</td>
+  <td>Angreifer gibt sich als technischer Support aus</td>
+</tr>
+<tr>
+  <td>Dumpster Diving</td>
+  <td>Sensible Information aus unsachgemäß entsorgtem Material</td>
+</tr>
+<tr>
+  <td>Impersonation</td>
+  <td>Auftreten als vertrauenswürdige Person</td>
+</tr>
+<tr>
+  <td>Tailgating</td>
+  <td>Unbefugter folgt einer befugten Person in einen geschützten Bereich</td>
+</tr>
+<tr>
+  <td>Pretexting</td>
+  <td>Erfundene, glaubwürdige Geschichte, um Vertrauliches zu erhalten</td>
+</tr>
+<tr>
+  <td>Whaling</td>
+  <td>Phishing gezielt gegen Führungskräfte</td>
+</tr>
+<tr>
+  <td>Baiting</td>
+  <td>Köder (Angebot, Gegenstand) löst schädliche Aktion aus</td>
+</tr>
+<tr>
+  <td>Watering Hole</td>
+  <td>Infiziert Websites, die eine bestimmte Zielgruppe nutzt</td>
+</tr>
+<tr>
+  <td>Scareware</td>
+  <td>Gefälschte Sicherheitswarnungen erschrecken Nutzer</td>
+</tr>
+<tr>
+  <td>Quid pro quo</td>
+  <td>Hilfe oder Vorteil gegen sensible Information</td>
+</tr>
+<tr>
+  <td>Spear Phishing</td>
+  <td>Auf eine Person oder Organisation zugeschnittenes Phishing</td>
+</tr>
+<tr>
+  <td>Vishing</td>
+  <td>Phishing per Anruf oder Voicemail</td>
+</tr>
+<tr>
+  <td>Smishing</td>
+  <td>Phishing per SMS</td>
+</tr>
+<tr>
+  <td>Phishing</td>
+  <td>Betrügerische Nachrichten, die zur Preisgabe sensibler Daten verleiten</td>
+</tr>
+</tbody>
+</table>
+<h2 id="64-web-tracking">6.4 Web Tracking</h2>
+<ul>
+<li><p>Web Tracking: Erfassen des Online-Verhaltens (Seiten, Verweildauer, Klicks, Suchen, Käufe, Standort, Gerät), um Profile zu bilden.</p>
+</li>
+<li><p>Cookies: kleine Textdateien, die Nutzer wiedererkennen (Login, Warenkorb). Session Cookies verschwinden beim Schließen des Browsers, Persistent Cookies bleiben eine Frist lang, Third-Party Cookies folgen Nutzern über mehrere Websites.</p>
+</li>
+<li><p>Local Storage: speichert größere Datenmengen auf dem Gerät.</p>
+</li>
+<li><p>Heat Maps: zeigen, wo geklickt, gescrollt und verweilt wird.</p>
+</li>
+<li><p>Tracking Pixels (Web Beacons): unsichtbare Bilder in Mails oder Seiten, melden Öffnen, Zeit, IP-Adresse, Browser.</p>
+</li>
+<li><p>Digital Fingerprinting: erkennt Nutzer anhand von Geräte- und Browsermerkmalen, auch ohne Cookies.</p>
+</li>
+<li><p>In der EU nur DSGVO-konform zulässig.</p>
+</li>
+</ul>
+<h2 id="65-cybersecurity">6.5 Cybersecurity</h2>
+<p>Technische Werkzeuge und sichere Arbeitsweisen gegen unbefugten Zugriff, Missbrauch und unerwünschte Änderung:</p>
+<ul>
+<li><p>Backups und Recovery (Wiederherstellung testen), Incident Response Planning, Security Monitoring.</p>
+</li>
+<li><p>Encryption (nur mit Schlüssel lesbar), Firewalls (Verkehr nach Regeln erlauben oder blocken), Email Filtering.</p>
+</li>
+<li><p>Secure Configuration (sichere Einstellungen, Standardpasswörter ersetzen), Updates und Patching, Antivirus/Endpoint Protection.</p>
+</li>
+<li><p>Security Policies, Security Awareness Training, Access Control (wer darf was), Password Managers, Multifactor Authentication (mindestens zwei Faktoren).</p>
+</li>
+</ul>
+<h2 id="66-the-risk-chain">6.6 The Risk Chain</h2>
+<p>Schrittmodell, wie aus einem Risiko ein Schaden wird, und wo man eingreifen kann:</p>
+<ol>
+<li><p>Threat: Hacker, Insider-Missbrauch.</p>
+</li>
+<li><p>Vulnerability: ungepatchte Systeme, schwache Passwörter, schlechte Zugriffskontrolle.</p>
+</li>
+<li><p>Attack Path: Malware-Mail, offener Netzwerkport.</p>
+</li>
+<li><p>Trigger: Klick auf Phishing-Link, weitergegebenes Passwort.</p>
+</li>
+<li><p>Risk Event: Datendiebstahl, Systemausfall.</p>
+</li>
+<li><p>Impact: finanzieller Verlust, Reputationsschaden, Stillstand.</p>
+</li>
+</ol>
+<h2 id="67-risk-tolerance">6.7 Risk Tolerance</h2>
+<ul>
+<li><p>Risk Tolerance: wie viel Cyberrisiko ein Unternehmen zu akzeptieren bereit ist.</p>
+</li>
+<li><p>Risk Corridor: akzeptierter Bereich.</p>
+</li>
+<li><p>Risk Ceiling: höchstes akzeptables Risiko; darüber muss gegengesteuert werden.</p>
+</li>
+<li><p>Risk Floor: darunter wird geprüft, ob weitere Senkung ihre Kosten und den Verwaltungsaufwand noch rechtfertigt.</p>
+</li>
+</ul>
+<h1 id="kapitel-7-digital-compliance-and-corporate-digital-responsibility-cdr">Kapitel 7 – Digital Compliance and Corporate Digital Responsibility (CDR)</h1>
+<p>Fünf Rechtsbereiche und CDR. Compliance fragt, was gesetzlich gilt; CDR fragt zusätzlich, ob der Einsatz fair und verantwortlich ist.</p>
+<h2 id="71-dsgvo-und-österreichisches-dsg">7.1 DSGVO und österreichisches DSG</h2>
+<ul>
+<li><p>Was geschützt ist: Menschen bei der Verarbeitung personenbezogener Daten. Personenbezogen = auf eine bestimmte oder bestimmbare Person beziehbar, auch eine Kundennummer. Schon Erheben, Speichern, Weitergeben ist Verarbeitung. Das DSG verankert das Grundrecht auf Datenschutz.</p>
+</li>
+<li><p>Rechtsgrundlagen: Vertragserfüllung (Lieferadresse), rechtliche Verpflichtung (Rechnungen aufbewahren), berechtigtes Interesse (darf die Rechte der Person nicht überwiegen), Einwilligung (aktiv, frei, informiert, zweckbezogen, jederzeit widerrufbar).</p>
+</li>
+<li><p>Grundsätze: Zweckbindung, Datenminimierung, Richtigkeit, Speicherbegrenzung (außer Aufbewahrungspflicht), Transparenz.</p>
+</li>
+<li><p>Betroffenenrechte: Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch, Datenübertragbarkeit; Antwort in der Regel binnen eines Monats.</p>
+</li>
+<li><p>Verantwortung: Controller bestimmt Zweck und Mittel; Processor verarbeitet weisungsgebunden mit Auftragsverarbeitungsvertrag (Fitnessstudio und Druckerei).</p>
+</li>
+<li><p>Schutz: angemessene technische und organisatorische Maßnahmen; Einhaltung muss nachweisbar sein.</p>
+</li>
+<li><p>Datenpanne: Controller prüft und dokumentiert; bei Risiko Meldung an die Datenschutzbehörde ohne unnötigen Verzug, möglichst binnen 72 Stunden; bei hohem Risiko auch die Betroffenen. Strafen bis 10 Mio. € / 2 % bzw. 20 Mio. € / 4 % des weltweiten Vorjahresumsatzes, jeweils der höhere Betrag.</p>
+</li>
+</ul>
+<h2 id="72-eprivacy-richtlinie-und-tkg-2021">7.2 ePrivacy-Richtlinie und TKG 2021</h2>
+<ul>
+<li><p>Schutzgegenstand: Vertraulichkeit elektronischer Kommunikation, Zugriff auf Endgeräte, Direktwerbung per E-Mail und SMS.</p>
+</li>
+<li><p>Cookies und ähnliche Technik (Local Storage, Fingerprinting): Für nicht notwendige Zugriffe vorherige, freiwillige, informierte, aktive Einwilligung; vorangekreuzte Kästchen oder Weitersurfen reichen nicht; Ablehnen so einfach wie Zustimmen.</p>
+</li>
+<li><p>Ausnahme: reine Nachrichtenübermittlung oder für einen ausdrücklich gewünschten Dienst unbedingt nötig (Warenkorb) – Werbetracking fällt nicht darunter.</p>
+</li>
+<li><p>E-Mail- und SMS-Werbung: grundsätzlich Einwilligung; Bestandskundenausnahme nur, wenn Adresse aus Kauf, eigene ähnliche Produkte, einfache Abmeldung bei Erhebung und in jeder Nachricht, kein Widerspruch und kein Eintrag in der ECG-Liste.</p>
+</li>
+<li><p>Verhältnis zur DSGVO: TKG regelt den Zugriff aufs Gerät; werden dabei personenbezogene Daten verarbeitet, gilt zusätzlich die DSGVO.</p>
+</li>
+</ul>
+<h2 id="73-eu-ai-act">7.3 EU AI Act</h2>
+<ul>
+<li><p>Regelt Entwicklung und Nutzung von AI, gilt direkt in Österreich; entscheidend ist der konkrete Verwendungszweck.</p>
+</li>
+<li><p>Provider: entwickelt ein AI-System und bringt es unter eigenem Namen in Verkehr. Deployer: nutzt es beruflich in eigener Verantwortung.</p>
+</li>
+<li><p>Risikostufen: unannehmbar, hoch, Transparenzrisiko, minimal; je höher das Risiko, desto strenger die Pflichten.</p>
+</li>
+<li><p>Verboten: u. a. Social Scoring mit ungerechtfertigten Nachteilen, Ausnutzen von Schwächen (Alter, Behinderung, Notlage).</p>
+</li>
+<li><p>Hochrisiko (z. B. Bewerberauswahl, Kreditwürdigkeit): nicht verboten, aber Risikomanagement, Dokumentation, menschliche Aufsicht mit Kompetenz und Eingriffsbefugnis, Protokolle.</p>
+</li>
+<li><p>Transparenz: Chatbots und Deepfakes erkennbar machen. AI Literacy: Provider und Deployer müssen die Kompetenz ihrer Leute fördern.</p>
+</li>
+<li><p>Strafen: verbotene Praktiken 35 Mio. € / 7 %; andere Pflichten inkl. Transparenz 15 Mio. € / 3 %; falsche Angaben 7,5 Mio. € / 1 %; KMU jeweils der niedrigere Betrag.</p>
+</li>
+<li><p>Fristen: Verbote und AI Literacy seit 2. 2. 2025; Transparenz seit 2. 8. 2026; Hochrisiko ab 2. 12. 2027; Hochrisiko in regulierten Produkten ab 2. 8. 2028.</p>
+</li>
+</ul>
+<h2 id="74-rechtliche-grundlagen-für-webshops-in-österreich">7.4 Rechtliche Grundlagen für Webshops in Österreich</h2>
+<ul>
+<li><p>GewO: Gewerbeberechtigung für gewerblichen Warenverkauf, auch online.</p>
+</li>
+<li><p>ECG: Name, Adresse, E-Mail und weiterer schneller Kontaktweg; bei Preisen klar, ob Steuern und Versand enthalten sind; Bestellablauf vorab erklären, Eingabefehler korrigierbar.</p>
+</li>
+<li><p>UGB: bei Firmenbucheintrag Firma, Rechtsform, Sitz, Firmenbuchnummer, Firmenbuchgericht.</p>
+</li>
+<li><p>MedienG: Offenlegung des Medieninhabers; Umfang hängt vom Inhalt der Website ab, nicht von der Unternehmensgröße.</p>
+</li>
+</ul>
+<h2 id="75-nis2-richtlinie-und-nisg-2026">7.5 NIS2-Richtlinie und NISG 2026</h2>
+<ul>
+<li><p>Zweck: Cybersicherheit wichtiger Dienste; NISG 2026 seit 1. 10. 2026 in Kraft.</p>
+</li>
+<li><p>Erfasst: bestimmte Sektoren (Energie, Gesundheit, digitale Dienste, Teile der Industrie), in der Regel ab mittlerer Größe (≥ 50 Beschäftigte oder &gt; 10 Mio. € Umsatz und Bilanzsumme). IT-Nutzung allein genügt nicht.</p>
+</li>
+<li><p>Essential Entities (groß, hochkritische Sektoren, strengere Aufsicht) vs. Important Entities.</p>
+</li>
+<li><p>Pflichten: Registrierung beim Bundesamt für Cybersicherheit, Risikomanagement inkl. Lieferkette, Prüfungen, Wiederanlauf nach Angriffen.</p>
+</li>
+<li><p>Meldung an das CSIRT: Frühwarnung ≤ 24 h, Vorfallsmeldung ≤ 72 h, Abschlussbericht ≤ 1 Monat nach Vorfallsmeldung (sonst Fortschrittsbericht).</p>
+</li>
+<li><p>Strafen: Essential 10 Mio. € / 2 %, Important 7 Mio. € / 1,4 %, jeweils der höhere Betrag; bei Personendaten zusätzlich DSGVO-Meldepflicht.</p>
+</li>
+</ul>
+<h2 id="76-corporate-digital-responsibility">7.6 Corporate Digital Responsibility</h2>
+<ul>
+<li><p>CDR: Verantwortung dafür, wie die Nutzung digitaler Technik Menschen und Umwelt beeinflusst; ergänzt gesetzliche Pflichten, ersetzt sie nicht.</p>
+</li>
+<li><p>Umgang mit Systemen und Daten: ethisch nutzen, Risiken früh bedenken (Privacy by Design), Zweckbindung und Datenminimierung, Dienste und Daten schützen (Need-to-know).</p>
+</li>
+<li><p>Umgang mit Menschen: unfaire Benachteiligung prüfen und beheben, Transparenz (erkennbar, wenn AI antwortet), informierte Entscheidungen ohne Dark Patterns (Design, das zu ungewollten Entscheidungen lenkt), digitale Inklusion.</p>
+</li>
+<li><p>Weitere Wirkungen: Mitarbeitende auf neue Aufgaben vorbereiten, ökologische Folgen (Energie, Gerätetausch), Wirkung auf die Gesellschaft.</p>
+</li>
+<li><p>Verantwortung: klar zuweisen, wer Systeme überwacht und eingreift; auch bei Fremdsoftware bleibt das Unternehmen verantwortlich.</p>
+</li>
+</ul>
+<h1 id="kapitel-8-digitalization-projects">Kapitel 8 – Digitalization Projects</h1>
+<p>Vier Abschnitte: was ein Digitalisierungsprojekt ist, warum Projekte scheitern, die zehn Phasen und Change Management mit der Change Curve.</p>
+<h2 id="81-digitalization-projects">8.1 Digitalization Projects</h2>
+<ul>
+<li><p>Ein Digitalisierungsprojekt löst konkrete Probleme und stützt strategische Ziele: erst die wichtigsten Probleme bestimmen, dann die Technik wählen.</p>
+</li>
+<li><p>Projektportfolio: Mehrere gleichzeitige Projekte werden gemeinsam gesteuert, Abhängigkeiten berücksichtigt; dafür ist ein eigenes Team zuständig.</p>
+</li>
+</ul>
+<h2 id="82-common-reasons-why-digitalization-projects-fail">8.2 Common Reasons Why Digitalization Projects Fail</h2>
+<ol>
+<li><p>Keine gemeinsame strategische Richtung: einzelne Technologiekäufe statt koordinierter Veränderung.</p>
+</li>
+<li><p>Unklare Prioritäten: unklar, welche Probleme am wichtigsten sind.</p>
+</li>
+<li><p>Prozesse nicht verbessert: alte Schwächen werden ins neue System übernommen.</p>
+</li>
+<li><p>Abhängigkeiten ignoriert.</p>
+</li>
+<li><p>Keine zentrale Verantwortung für die Gesamttransformation.</p>
+</li>
+<li><p>Überlastete Mitarbeitende: Transformation kommt zur normalen Arbeit dazu.</p>
+</li>
+<li><p>Projekte konkurrieren um dieselben Ressourcen und Entscheider.</p>
+</li>
+<li><p>Zu wenig Investition in Change Management.</p>
+</li>
+</ol>
+<h2 id="83-phases-of-a-digitalization-project">8.3 Phases of a Digitalization Project</h2>
+<ol>
+<li><p>Needs Identification &amp; Strategic Alignment: Probleme, Nutzerbedarf, Ziele und Anforderungen klären.</p>
+</li>
+<li><p>Feasibility &amp; Business Case: Machbarkeit mit Zeit, Geld, Know-how; Nutzen gegen Kosten. Quick Wins = hoher Nutzen bei wenig Aufwand.</p>
+</li>
+<li><p>Process Design: künftige Abläufe und Zuständigkeiten festlegen, Schwächen beheben, daraus technische Anforderungen ableiten.</p>
+</li>
+<li><p>System Design: Architektur des BIS planen, mit Wissen der Fachabteilungen.</p>
+</li>
+<li><p>Development &amp; Configuration: Hardware beschaffen, Software entwickeln und einstellen; in Sprints mit frühem Feedback.</p>
+</li>
+<li><p>Integration &amp; Data Migration: neue Teile anbinden, bereinigte Daten übernehmen; der Betrieb läuft im Altsystem weiter.</p>
+</li>
+<li><p>Testing &amp; Validation: Einzelteile und Zusammenspiel testen, mit künftigen Nutzern prüfen.</p>
+</li>
+<li><p>Pilot &amp; Deployment Preparation: ausgewählte Nutzer arbeiten im echten Tagesgeschäft eines begrenzten Bereichs; Schulungen vorbereiten.</p>
+</li>
+<li><p>Rollout, Adoption &amp; Change Management: in koordinierten Wellen; Parallelbetrieb mit fixem Abschaltdatum.</p>
+</li>
+<li><p>Benefits Realization &amp; Continuous Improvement: Nutzen messen statt schätzen, gemeinsam mit Nutzern verbessern.</p>
+</li>
+</ol>
+<h2 id="84-change-management">8.4 Change Management</h2>
+<ul>
+<li><p>Change Management: hilft Mitarbeitenden, mit Veränderungen umzugehen und neue Routinen tatsächlich zu übernehmen. Geplant ab Process Design, weiterentwickelt nach dem Pilot.</p>
+</li>
+<li><p>Instrumente: rollenspezifische Schulung, Mentoring (persönliche Begleitung), Change Champions (Ansprechpersonen in den Abteilungen, die den Wandel aktiv unterstützen).</p>
+</li>
+<li><p>Shadow IT: Technik, die ohne Wissen oder Freigabe der IT genutzt wird.</p>
+</li>
+</ul>
+<h2 id="841-the-change-curve">8.4.1 The Change Curve</h2>
+<p>Mögliche emotionale Reaktionen auf Veränderung; nicht jeder durchläuft alle Phasen oder in dieser Reihenfolge.</p>
+<ol>
+<li><p>Shock: Die Ankündigung verunsichert.</p>
+</li>
+<li><p>Denial: „Unnötig, betrifft mich nicht“, weiter wie bisher.</p>
+</li>
+<li><p>Frustration: Ärger über verlorene Routinen.</p>
+</li>
+<li><p>Depression: emotionaler Tiefpunkt, Rückzug (keine medizinische Diagnose).</p>
+</li>
+<li><p>Experimentation: Neues ausprobieren, lernen, was funktioniert.</p>
+</li>
+<li><p>Decision: erste Erfolge stärken das Vertrauen in die eigenen Fähigkeiten.</p>
+</li>
+<li><p>Integration: Das Neue ist Gewohnheit.</p>
+</li>
+</ol>
+<h1 id="quellenverzeichnis">Quellenverzeichnis</h1>
+<p>Öffentlich erreichbare Quellen sind mit Link angegeben (abgerufen am 17. November 2026). Die Kursunterlagen sind nicht öffentlich zugänglich; sie sind genannt, damit nachvollziehbar ist, worauf sich der Text stützt. Die Kürzel entsprechen den Herkunftsangaben im Text.</p>
+<h2 id="kursunterlagen-nicht-öffentlich">Kursunterlagen (nicht öffentlich)</h2>
+<ul>
+<li><p><strong>Study Guide:</strong> STAGES – Digitalizing Organizations, Study Guide, Kapitel 1–8 (englischsprachige Kapitelzusammenfassungen). Lernplattform STAGES (Anmeldung erforderlich). Grundlage für Kapitel 1–8 und Teile von Grundlagen 2.</p>
+</li>
+<li><p><strong>Pomberger:</strong> Skriptum „Algorithmen und Datenstrukturen“, Johannes Kepler Universität Linz, Kapitel 7–9 (Rekursion, Komplexität, Sortieralgorithmen). Verwendet in Grundlagen 1 und 4.</p>
+</li>
+</ul>
+<h2 id="öffentlich-erreichbare-quellen">Öffentlich erreichbare Quellen</h2>
+<ul>
+<li><p><strong>CS Unplugged:</strong> Bell, T.; Witten, I. H.; Fellows, M.: Computer Science Unplugged. Deutsche Fassung des Projekts ADA, TU Wien, Dezember 2020. Projektseite: <a href="https://www.csunplugged.org/de/">https://www.csunplugged.org/de/</a>. Verwendet in Grundlagen 1–5.</p>
+</li>
+<li><p><strong>CS50:</strong> Harvard University: CS50x 2023, Lecture 3 „Algorithms“ (Notizen, Folien, Video): <a href="https://cs50.harvard.edu/x/2023/notes/3/">https://cs50.harvard.edu/x/2023/notes/3/</a>. Verwendet in Grundlagen 4.</p>
+</li>
+<li><p><strong>lernhelfer.de:</strong> Rechenhilfsmittel, Chronologie: <a href="https://www.lernhelfer.de/schuelerlexikon/mathematik/artikel/rechenhilfsmittel-chronologie">https://www.lernhelfer.de/schuelerlexikon/mathematik/artikel/rechenhilfsmittel-chronologie</a>. Verwendet in Grundlagen 1.</p>
+</li>
+<li><p><strong>Sortier-Visualisierungen:</strong> Toptal, Sorting Algorithms Animations: <a href="https://www.toptal.com/developers/sorting-algorithms">https://www.toptal.com/developers/sorting-algorithms</a>; Galles, D. (University of San Francisco), Comparison Sorting Visualization: <a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html</a>.</p>
+</li>
+<li><p><strong>Fragenkatalog:</strong> simon-lost-in-cache: computer-science-training-test, Datei questions.json (120 Übungsfragen zu Kapitel 1–8 des Study Guide), GitHub: <a href="https://github.com/simon-lost-in-cache/computer-science-training-test">https://github.com/simon-lost-in-cache/computer-science-training-test</a>. Zum Abgleich verwendet.</p>
+</li>
+</ul>
+<h2 id="rechtsquellen-zu-kapitel-7">Rechtsquellen zu Kapitel 7</h2>
+<p>Kapitel 7 gibt den Study Guide wieder. Die Rechtstexte sind zur Überprüfung verlinkt; österreichische Gesetze in der geltenden Fassung im Rechtsinformationssystem des Bundes (RIS).</p>
+<ul>
+<li><p><strong>DSGVO:</strong> Verordnung (EU) 2016/679: <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a></p>
+</li>
+<li><p><strong>DSG:</strong> Datenschutzgesetz, BGBl. I Nr. 165/1999: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10001597">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10001597</a></p>
+</li>
+<li><p><strong>ePrivacy-Richtlinie:</strong> Richtlinie 2002/58/EG: <a href="https://eur-lex.europa.eu/eli/dir/2002/58/oj">https://eur-lex.europa.eu/eli/dir/2002/58/oj</a></p>
+</li>
+<li><p><strong>TKG 2021:</strong> Telekommunikationsgesetz 2021, BGBl. I Nr. 190/2021: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20011678">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20011678</a></p>
+</li>
+<li><p><strong>AI Act:</strong> Verordnung (EU) 2024/1689: <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">https://eur-lex.europa.eu/eli/reg/2024/1689/oj</a></p>
+</li>
+<li><p><strong>GewO 1994:</strong> Gewerbeordnung 1994, BGBl. Nr. 194/1994: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10007517">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10007517</a></p>
+</li>
+<li><p><strong>ECG:</strong> E-Commerce-Gesetz, BGBl. I Nr. 152/2001: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20001703">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20001703</a></p>
+</li>
+<li><p><strong>UGB:</strong> Unternehmensgesetzbuch: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10001702">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10001702</a></p>
+</li>
+<li><p><strong>MedienG:</strong> Mediengesetz, BGBl. Nr. 314/1981: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10000719">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10000719</a></p>
+</li>
+<li><p><strong>NIS2-Richtlinie:</strong> Richtlinie (EU) 2022/2555: <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">https://eur-lex.europa.eu/eli/dir/2022/2555/oj</a></p>
+</li>
+<li><p><strong>NISG 2026:</strong> Netz- und Informationssystemsicherheitsgesetz 2026, BGBl. I Nr. 94/2025, in Kraft seit 1. Oktober 2026: <a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20013065">https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20013065</a></p>
+</li>
+</ul>
+<h2 id="zusätzliche-quellen-der-korrekturfassung">Zusätzliche Quellen der Korrekturfassung</h2>
+<p>Die folgenden Quellen wurden <strong>erst für die Überarbeitung der Markdown-Fassung</strong> herangezogen. Sie gehören nicht zum ursprünglichen Quellenverzeichnis des Verfassers.</p>
+<ul>
+<li><strong>Science Museum Group:</strong> <a href="https://collection.sciencemuseumgroup.org.uk/people/cp36993">Charles Babbage</a> – kleines experimentelles Modell der Difference Engine (1822).</li>
+<li><strong>Smithsonian, National Museum of American History:</strong> <a href="https://www.americanhistory.si.edu/collections/object/nmah_334663">Log Book With Computer Bug</a> – Mottenfund 1947; älterer Gebrauch des Wortes „Bug“.</li>
+<li><strong>Computer History Museum:</strong> <a href="https://www.computerhistory.org/revolution/digital-logic/12/273">First Transistor (1947)</a>.</li>
+<li><strong>Computer History Museum:</strong> <a href="https://www.computerhistory.org/timeline/computers/">Timeline of Computer History</a> – Personal-Computer-Geschichte, Apple I und Apple II.</li>
+<li><strong>OpenDSA / Virginia Tech:</strong> <a href="https://opendsa.cs.vt.edu/ODSA/Books/CS3/html/SortingEmpirical.html">Empirical Comparison of Sorting Algorithms</a> – Leistungsunterschiede zwischen Sortierverfahren.</li>
+<li><strong>Algorithmusübersicht:</strong> <a href="https://algorithm.tamnd.com/planar-graph-coloring/">Planar Graph Coloring</a> – Unterschied zwischen Vier- und Dreifärbung planarer Graphen.</li>
+</ul>
+<h2 id="weiterführende-medien-nicht-als-quelle-verwendet">Weiterführende Medien (nicht als Quelle verwendet)</h2>
+<ul>
+<li><p>Harvard CS50 – Full Computer Science University Course (YouTube): <a href="https://www.youtube.com/watch?v=8mAITcNt710">https://www.youtube.com/watch?v=8mAITcNt710</a></p>
+</li>
+<li><p>Studyflix: Theoretische Informatik: <a href="https://studyflix.de/informatik/thema/theoretische-informatik-46">https://studyflix.de/informatik/thema/theoretische-informatik-46</a></p>
+</li>
+<li><p>KI – Die letzte Erfindung der Menschheit? (YouTube): <a href="https://www.youtube.com/watch?v=lHlxx9gS7Ek">https://www.youtube.com/watch?v=lHlxx9gS7Ek</a></p>
+</li>
+<li><p>Wie funktioniert eigentlich Machine Learning? (YouTube): <a href="https://www.youtube.com/watch?v=ya_6I9IVMzY">https://www.youtube.com/watch?v=ya_6I9IVMzY</a></p>
+</li>
+<li><p>ChatGPT, Gemini, Claude &amp; Co erklärt: Wie Maschinen Sprache verstehen – Terra X Lesch &amp; Co (YouTube): <a href="https://www.youtube.com/watch?v=MsqL9fzOzXU">https://www.youtube.com/watch?v=MsqL9fzOzXU</a></p>
+</li>
+<li><p>Was ist Künstliche Intelligenz? – Die Maus, WDR (YouTube): <a href="https://www.youtube.com/watch?v=_80pKGuyKWc">https://www.youtube.com/watch?v=_80pKGuyKWc</a></p>
+</li>
+</ul>
+</article><footer>Originalautor: Claudiu Dangulea · korrigierte Markdown-Fassung</footer></main></body></html>
