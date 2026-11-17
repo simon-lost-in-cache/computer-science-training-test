@@ -51,7 +51,7 @@ Das Projekt dient daher nicht nur der Prüfungsvorbereitung, sondern auch dem pr
 
 **Design-Inspiration**
 
-Das Layout des Prüfungssimulators wurde in Anlehnung an STAGES – Digitalizing Organizations von Gerhard Fenkart-Fröschl erstellt. Die technische Umsetzung erfolgte mithilfe von ChatGPT.
+Das Layout des Prüfungssimulators wurde in Anlehnung an "STAGES – Digitalizing Organizations" von Gerhard Fenkart-Fröschl erstellt. Die technische Umsetzung erfolgte mithilfe von ChatGPT.
 
 ## Haftungsausschluss und Unabhängigkeit
 
